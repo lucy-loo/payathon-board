@@ -20,6 +20,8 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - name: 赛程窗口检查
         id: window
@@ -48,6 +50,7 @@ jobs:
         run: node scripts/scrape.mjs
 
       - name: Commit updated data
+        id: commit
         if: steps.window.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
@@ -55,7 +58,37 @@ jobs:
           git add public/data
           if git diff --staged --quiet; then
             echo "数据无变化，跳过提交"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore: update payathon data $(date -u +%Y-%m-%d)"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+  # GITHUB_TOKEN 的 push 不会触发 deploy.yml（防递归），所以在同一次运行里直接部署
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact (public/)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
