@@ -3,7 +3,7 @@
 const FALLBACK_COLORS = ['#1677ff', '#722ed1', '#13c2c2', '#fa8c16', '#eb2f96', '#2f54eb', '#a0d911'];
 const HEAT_DEFAULT = { view: 1, like: 10, comment: 10 };
 
-const state = { history: null, trackCode: null, metric: 'views', heat: HEAT_DEFAULT };
+const state = { history: null, trackCode: null, heat: HEAT_DEFAULT };
 
 const $ = (sel) => document.querySelector(sel);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -122,59 +122,6 @@ function renderTabs(data, colors, current, onChange) {
   });
 }
 
-/* ---------- 图表 ---------- */
-function renderTrackChart() {
-  const h = state.history;
-  if (!h) return;
-  renderLineChart($('#chart-tracks'), {
-    xLabels: h.dates,
-    series: h.tracks.map((t) => ({ name: t.name, color: t.color, values: t.counts })),
-  });
-  renderLegend($('#legend-tracks'), h.tracks.map((t) => ({ name: t.name, color: t.color })));
-  appendSingleDayNote($('#legend-tracks'), h.dates);
-}
-
-function topSeriesForTrack() {
-  const h = state.history;
-  const code = state.trackCode;
-  const track = h?.tracks.find((t) => t.code === code);
-  if (!h || !track) return null;
-  const metricIndex = state.metric === 'likes' ? 1 : 0;
-  const { view, like, comment } = state.heat;
-  const heatOf = (m) => (m ? m[0] * view + m[1] * like + m[2] * comment : 0);
-
-  const ranked = h.works
-    .filter((w) => w.trackCode === code)
-    .map((w) => ({ w, cumulativeHeat: w.m.reduce((sum, m) => sum + heatOf(m), 0) }))
-    .sort((a, b) => b.cumulativeHeat - a.cumulativeHeat || a.w.title.localeCompare(b.w.title))
-    .slice(0, 10);
-
-  const palette = shades(track.color || '#1677ff', ranked.length);
-  const series = ranked.map((r, i) => ({
-    name: r.w.title,
-    color: palette[i],
-    values: r.w.m.map((m) => (m ? m[metricIndex] : null)),
-  }));
-  return series;
-}
-
-function renderTopChart() {
-  if (!state.history || !state.trackCode) return;
-  const series = topSeriesForTrack();
-  if (!series) return;
-
-  renderLineChart($('#chart-top'), { xLabels: state.history.dates, series });
-  appendSingleDayNote($('#legend-top'), state.history.dates);
-}
-
-function appendSingleDayNote(container, dates) {
-  if (!dates || dates.length >= 2) return;
-  const note = document.createElement('span');
-  note.className = 'legend-note';
-  note.textContent = '当前仅 1 天数据，折线会随每日抓取逐步补齐';
-  container.appendChild(note);
-}
-
 /* ---------- 仪表盘 ---------- */
 function renderDashboard(data) {
   const colors = trackColors(data);
@@ -188,7 +135,6 @@ function renderDashboard(data) {
     state.trackCode = code;
     renderTabs(data, colors, code, selectTab);
     renderTopList(data, code, colors);
-    renderTopChart();
   };
   selectTab(state.trackCode ?? data.tracks[0]?.code);
 }
@@ -205,37 +151,24 @@ async function loadDate(date) {
   $('#date-hint').textContent = `${date} 快照 · ${num(data.total)} 件作品`;
 }
 
-function initMetricToggle() {
-  const box = $('#metric-toggle');
-  box.querySelectorAll('button').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      state.metric = btn.dataset.metric;
-      box.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
-      renderTopChart();
-    });
-  });
-}
-
 async function main() {
-  initMetricToggle();
   try {
     const index = await loadJSON('./data/index.json');
     const select = $('#date-select');
     select.innerHTML = index.dates.map((d) => `<option value="${d}">${d}</option>`).join('');
-    select.disabled = index.dates.length <= 1;
+    select.value = index.latest;
     select.addEventListener('change', () => {
       loadDate(select.value).catch((e) => {
         $('#top-list').innerHTML = `<div class="empty error">加载失败：${esc(e.message)}</div>`;
       });
     });
 
-    // 历史数据（折线图），缺失时不影响主表
+    // 历史数据（表格内迷你趋势图），缺失时不影响主表
     try {
       state.history = await loadJSON('./data/history.json');
       if (state.history?.heatFormula) state.heat = state.history.heatFormula;
-      renderTrackChart();
     } catch {
-      document.querySelectorAll('.chart-block').forEach((n) => n.remove());
+      // history.json 缺失或损坏时忽略：表格与列表的迷你趋势图会降级为占位符
     }
 
     await loadDate(index.latest);
