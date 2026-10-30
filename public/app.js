@@ -29,6 +29,13 @@ function trendFor(code) {
   return state.history?.tracks.find((t) => t.code === code)?.counts || null;
 }
 
+// 总量趋势 = 各赛道逐日数量之和，与 history.dates 对齐
+function totalTrend() {
+  const hist = state.history;
+  if (!hist?.tracks.length) return null;
+  return hist.dates.map((_, i) => hist.tracks.reduce((sum, t) => sum + (t.counts[i] || 0), 0));
+}
+
 function renderTracks(data, colors) {
   if (!data.tracks.length) {
     $('#track-body').innerHTML = '<tr><td colspan="4" class="empty">暂无数据</td></tr>';
@@ -53,10 +60,11 @@ function renderTracks(data, colors) {
     })
     .join('');
 
+  const totals = totalTrend();
   $('#track-foot').innerHTML = `<tr>
     <td>总计</td>
     <td class="num">${num(data.total)}</td>
-    <td class="spark-col"></td>
+    <td class="spark-col">${totals ? sparkline(totals, { color: '#6b7280' }) : '—'}</td>
     <td class="share-cell"><div class="share"><span class="share-bar"></span><span class="share-num">100%</span></div></td>
   </tr>`;
 }
@@ -79,23 +87,29 @@ function renderTopList(data, code, colors) {
     $('#top-list').innerHTML = '<div class="empty">该赛道暂无作品</div>';
     return;
   }
+
   const sparkOf = (workId, kind) => {
     const series = metricSeries(workId, kind);
-    return series ? `<div class="spark-wrap">${sparkline(series, { color, width: 56, height: 16 })}</div>` : '';
+    const svg = series ? sparkline(series, { color, width: 44, height: 13 }) : '';
+    return `<span class="spark-wrap">${svg}</span>`;
   };
+  const statOf = (cls, value, label, kind, workId) =>
+    `<span class="stat ${cls}"><span class="kv"><b class="v">${num(value)}</b><span class="k">${label}</span></span>${sparkOf(workId, kind)}</span>`;
 
   $('#top-list').innerHTML = list
     .map((w) => {
-      const title = `<a class="work-title" href="${esc(w.detailUrl)}" target="_blank" rel="noopener">${esc(w.title)}<span class="external">↗</span></a>`;
       const summary = w.summary ? `<div class="work-summary">${esc(w.summary)}</div>` : '';
-      return `<article class="work" style="border-left:3px solid ${color}">
+      return `<article class="work">
         <div class="rank">${w.rank}</div>
-        <div class="work-main">${title}${summary}</div>
+        <div class="work-main">
+          <a class="work-title" href="${esc(w.detailUrl)}" target="_blank" rel="noopener">${esc(w.title)}<span class="external">↗</span></a>
+          ${summary}
+        </div>
         <div class="work-stats">
-          <div class="stat heat"><div class="v">${num(w.heat)}</div><div class="k">热度</div>${sparkOf(w.workId, 'heat')}</div>
-          <div class="stat"><div class="v">${num(w.views)}</div><div class="k">浏览</div>${sparkOf(w.workId, 'views')}</div>
-          <div class="stat"><div class="v">${num(w.likes)}</div><div class="k">点赞</div>${sparkOf(w.workId, 'likes')}</div>
-          <div class="stat"><div class="v">${num(w.comments)}</div><div class="k">评论</div>${sparkOf(w.workId, 'comments')}</div>
+          ${statOf('heat', w.heat, '热度', 'heat', w.workId)}
+          ${statOf('', w.views, '浏览', 'views', w.workId)}
+          ${statOf('', w.likes, '点赞', 'likes', w.workId)}
+          ${statOf('', w.comments, '评论', 'comments', w.workId)}
         </div>
       </article>`;
     })
@@ -139,43 +153,26 @@ function renderDashboard(data) {
   selectTab(state.trackCode ?? data.tracks[0]?.code);
 }
 
-async function loadJSON(url) {
-  const res = await fetch(url, { cache: 'no-store' });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.json();
-}
-
-async function loadDate(date) {
-  const data = await loadJSON(`./data/daily/${date}.json`);
-  renderDashboard(data);
-  $('#date-hint').textContent = `${date} 快照 · ${num(data.total)} 件作品`;
-}
-
 async function main() {
   try {
-    const index = await loadJSON('./data/index.json');
-    const select = $('#date-select');
-    select.innerHTML = index.dates.map((d) => `<option value="${d}">${d}</option>`).join('');
-    select.value = index.latest;
-    select.addEventListener('change', () => {
-      loadDate(select.value).catch((e) => {
-        $('#top-list').innerHTML = `<div class="empty error">加载失败：${esc(e.message)}</div>`;
-      });
-    });
+    // 数据请求已由 index.html 的引导脚本提前发起（见 window.__dataBoot）
+    const { index, daily, history } = await window.__dataBoot;
+
+    // 数据采集时间范围（dates 为降序，末位是开始采集的那天）
+    const first = index.dates[index.dates.length - 1];
+    $('#range').innerHTML =
+      first === index.latest ? `采集于 <strong>${esc(first)}</strong>` : `采集范围 <strong>${esc(first)} ~ ${esc(index.latest)}</strong>`;
 
     // 历史数据（表格内迷你趋势图），缺失时不影响主表
-    try {
-      state.history = await loadJSON('./data/history.json');
-      if (state.history?.heatFormula) state.heat = state.history.heatFormula;
-    } catch {
-      // history.json 缺失或损坏时忽略：表格与列表的迷你趋势图会降级为占位符
+    if (history) {
+      state.history = history;
+      if (history.heatFormula) state.heat = history.heatFormula;
     }
 
-    await loadDate(index.latest);
+    renderDashboard(daily);
   } catch (err) {
     $('#track-body').innerHTML = `<tr><td colspan="4" class="empty error">数据加载失败：${esc(err.message)}</td></tr>`;
     $('#top-list').innerHTML = `<div class="empty error">数据加载失败：${esc(err.message)}</div>`;
-    $('#date-hint').textContent = '数据加载失败';
   }
 }
 

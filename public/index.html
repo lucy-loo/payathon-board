@@ -5,28 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PAYATHON 2026 · 参赛作品看板</title>
   <meta name="description" content="PAYATHON 2026 参赛作品按赛道统计与各赛道热度 Top 10，每日自动更新。" />
+  <script>
+    // 提前发起数据请求：不等脚本下载/解析完成再请求，省掉一次串行等待。
+    // index.json / history.json 每日更新 -> no-cache，命中 ETag 时只回 304；
+    // data/daily/<日期>.json 按天归档且归档后不再变化 -> force-cache，按天粒度复用浏览器缓存。
+    window.__dataBoot = (async () => {
+      const getJSON = async (url, cache) => {
+        const res = await fetch(url, { cache });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      };
+      const index = await getJSON('./data/index.json', 'no-cache');
+      const [daily, history] = await Promise.all([
+        getJSON(`./data/daily/${index.latest}.json`, 'force-cache'),
+        getJSON('./data/history.json', 'no-cache').catch(() => null), // 缺失时不影响主表
+      ]);
+      return { index, daily, history };
+    })();
+  </script>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
-      <div class="brand">
-        <span class="brand-dot"></span>
-        <span>PAYATHON 2026</span>
-      </div>
-      <h1>参赛作品看板</h1>
-      <p class="sub">按赛道统计作品数量 · 各赛道热度 Top 10 · 每日自动更新</p>
-      <p class="meta">
-        更新于 <time id="updated">—</time>
-        <span class="sep">·</span>
-        共 <strong id="total">—</strong> 件作品
-        <span class="sep">·</span>
-        <a id="source-link" href="https://aipay.alipay.com/community?chinfo=huodong&view=products%2Fpayathon" target="_blank" rel="noopener">数据来源</a>
-      </p>
-      <div class="date-bar">
-        <label for="date-select">数据日期</label>
-        <select id="date-select" aria-label="选择数据日期"></select>
-        <span class="date-hint" id="date-hint"></span>
+      <div class="hero-bar">
+        <h1>PAYATHON 2026 · 参赛作品看板</h1>
+        <p class="meta">
+          共 <strong id="total">—</strong> 件作品
+          <span class="sep">·</span>
+          <span id="range">—</span>
+          <span class="sep">·</span>
+          更新于 <time id="updated">—</time>
+          <span class="sep">·</span>
+          <a id="source-link" href="https://aipay.alipay.com/community?chinfo=huodong&view=products%2Fpayathon" target="_blank" rel="noopener">数据来源</a>
+        </p>
       </div>
     </div>
   </header>
