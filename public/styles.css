@@ -42,6 +42,17 @@ body {
 .hero .meta a:hover { text-decoration: underline; }
 .sep { margin: 0 6px; color: #cbd2dd; }
 
+/* 数据未更新提示：定时抓取失败时显示，正常情况下隐藏 */
+.stale {
+  border: 1px solid #f2d08a;
+  background: #fff8e6;
+  color: #8a5a00;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 12.5px;
+}
+.stale[hidden] { display: none; }
+
 /* Cards */
 main.wrap { padding: 12px 0 4px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
 .card {

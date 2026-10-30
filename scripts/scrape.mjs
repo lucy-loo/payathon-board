@@ -43,22 +43,52 @@ const TRACK_COLOR = {
 // 热度权重：浏览量 + 点赞 + 评论加权
 const HEAT = { view: 1, like: 10, comment: 10 };
 
+// 抓取节流：本脚本每天只跑一次（约 8 次请求），保持“低频率 + 像人”的访问特征即可，无需代理池
+const REQUEST_TIMEOUT = 15000; // 单请求超时，避免连接挂起
+const PAGE_GAP = { min: 300, max: 700 }; // 页间随机间隔，避免连续请求形成突发
+const MAX_RETRIES = 3;
+// 请求头贴近真实浏览器，降低被网关按“无 UA / 非浏览器客户端”拦截的概率
+const REQUEST_HEADERS = {
+  'User-Agent':
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  Accept: 'application/json, text/plain, */*',
+  'Accept-Language': 'zh-CN,zh;q=0.9',
+  Referer: 'https://aipay.alipay.com/community?chinfo=huodong&view=products%2Fpayathon',
+};
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const jitter = (range) => range.min + Math.random() * (range.max - range.min);
+
 // 以北京时间（Asia/Shanghai）计算日期，保证“每日快照”按自然日归档
 function shanghaiDate(d = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai' }).format(d);
 }
 
-async function fetchPage(page, retries = 3) {
-  for (let i = 0; i <= retries; i++) {
+async function fetchPage(page, retries = MAX_RETRIES) {
+  for (let attempt = 0; ; attempt += 1) {
     try {
-      const res = await fetch(API(page), { headers: { Accept: 'application/json' } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const json = await res.json();
-      if (!json.success) throw new Error(json.errorMsg || 'API 返回失败');
-      return json.data;
+      const res = await fetch(API(page), {
+        headers: REQUEST_HEADERS,
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT),
+      });
+      if (res.ok) {
+        const json = await res.json();
+        if (!json.success) throw new Error(json.errorMsg || 'API 返回失败');
+        return json.data;
+      }
+      // 429 / 5xx 属临时故障，重试有意义；其余 4xx（403、404 等）直接失败——
+      // 对着同一个拒绝再打三次只会加深风控，得不偿失
+      if (res.status !== 429 && res.status < 500) {
+        throw Object.assign(new Error(`HTTP ${res.status}`), { fatal: true });
+      }
+      const retryAfter = Number(res.headers.get('retry-after')) * 1000;
+      throw Object.assign(new Error(`HTTP ${res.status}`), {
+        retryAfter: Number.isFinite(retryAfter) ? retryAfter : 0,
+      });
     } catch (err) {
-      if (i === retries) throw err;
-      await new Promise((r) => setTimeout(r, 500 * (i + 1)));
+      if (err.fatal || attempt >= retries) throw err;
+      // 优先遵守服务端的 Retry-After，否则指数退避 + 抖动（500ms → 1s → 2s）
+      await sleep(err.retryAfter || 2 ** attempt * 500 + jitter({ min: 0, max: 300 }));
     }
   }
 }
@@ -94,6 +124,7 @@ async function scrapeAll() {
     raw = raw.concat(data.items || []);
     apiTotal = data.total ?? raw.length;
     if (!data.hasMore || page > 500) break;
+    await sleep(jitter(PAGE_GAP)); // 翻页之间留出随机间隔
     page += 1;
   }
   return { raw, apiTotal };
@@ -159,6 +190,7 @@ async function writeIndex(latest) {
     latest: latest.date,
     eventCode: latest.eventCode,
     total: latest.total,
+    endDate: END_DATE, // 赛程截止日：页面据此避免在赛程结束后误报“数据未更新”
     dates,
   };
   await writeFile(INDEX_FILE, JSON.stringify(index, null, 2), 'utf8');

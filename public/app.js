@@ -153,6 +153,37 @@ function renderDashboard(data) {
   selectTab(state.trackCode ?? data.tracks[0]?.code);
 }
 
+// 北京时间（Asia/Shanghai）的当前日期与小时，口径与 scrape.mjs 的归档日期一致
+function beijingNow() {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    hourCycle: 'h23',
+  }).formatToParts(new Date());
+  const get = (type) => parts.find((p) => p.type === type).value;
+  return { date: `${get('year')}-${get('month')}-${get('day')}`, hour: Number(get('hour')) };
+}
+
+// 判定“该更新却没更新”：定时任务每天 00:10（北京）写入当天快照，
+// 01:00 之后仍没有今天的快照，基本可判定那次抓取失败（页面数据仍可用，只是停在旧快照）。
+// 赛程结束后不再抓取，故以 endDate 为界，避免赛程结束后一直误报。
+function isStale(index, now) {
+  return now.date > index.latest && now.hour >= 1 && (!index.endDate || now.date <= index.endDate);
+}
+
+function renderStale(index) {
+  const now = beijingNow();
+  const stale = isStale(index, now);
+  const el = $('#stale');
+  el.hidden = !stale;
+  if (stale) {
+    el.textContent = `⚠ 数据更新可能失败：最新快照为 ${index.latest}，今日（${now.date}）暂无新数据`;
+  }
+}
+
 async function main() {
   try {
     // 数据请求已由 index.html 的引导脚本提前发起（见 window.__dataBoot）
@@ -162,6 +193,7 @@ async function main() {
     const first = index.dates[index.dates.length - 1];
     $('#range').innerHTML =
       first === index.latest ? `采集于 <strong>${esc(first)}</strong>` : `采集范围 <strong>${esc(first)} ~ ${esc(index.latest)}</strong>`;
+    renderStale(index);
 
     // 历史数据（表格内迷你趋势图），缺失时不影响主表
     if (history) {
