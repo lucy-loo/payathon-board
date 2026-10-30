@@ -176,7 +176,8 @@ function isStale(index, now) {
 
 function renderStale(index) {
   const now = beijingNow();
-  const stale = isStale(index, now);
+  // 离线时页面用的是 Service Worker 缓存的旧数据，属于预期而非抓取失败，不提示
+  const stale = navigator.onLine && isStale(index, now);
   const el = $('#stale');
   el.hidden = !stale;
   if (stale) {

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="PAYATHON 看板">
+  <rect width="512" height="512" rx="112" fill="#1677ff"/>
+  <g fill="#ffffff">
+    <rect x="142" y="266" width="56" height="104" rx="14"/>
+    <rect x="228" y="212" width="56" height="158" rx="14"/>
+    <rect x="314" y="158" width="56" height="212" rx="14"/>
+  </g>
+</svg>

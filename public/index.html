@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PAYATHON 2026 · 参赛作品看板</title>
   <meta name="description" content="PAYATHON 2026 参赛作品按赛道统计与各赛道热度 Top 10，每日自动更新。" />
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#1677ff" />
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="PAYATHON 看板" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="PAYATHON 2026 参赛作品看板" />
+  <meta property="og:title" content="PAYATHON 2026 · 参赛作品看板" />
+  <meta property="og:description" content="按赛道统计与各赛道热度 Top 10，每日自动更新。" />
+  <meta property="og:url" content="https://lucy-loo.github.io/payathon-board/" />
+  <meta property="og:image" content="https://lucy-loo.github.io/payathon-board/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <script>
     // 提前发起数据请求：不等脚本下载/解析完成再请求，省掉一次串行等待。
     // index.json / history.json 每日更新 -> no-cache，命中 ETag 时只回 304；
@@ -81,5 +97,13 @@
 
   <script src="./charts.js"></script>
   <script src="./app.js"></script>
+  <script>
+    // 离线支持：注册 Service Worker（相对路径，作用域跟随 GitHub Pages 子路径）
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+      });
+    }
+  </script>
 </body>
 </html>
