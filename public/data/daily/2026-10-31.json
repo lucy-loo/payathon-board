@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
   "eventCode": "alipay_aipay_hackathon_2026",
-  "updatedAt": "2026-10-30T17:44:42.780Z",
+  "updatedAt": "2026-10-30T20:42:53.461Z",
   "total": 382,
   "apiTotal": 382,
   "heatFormula": {
@@ -88,10 +88,10 @@
         "url": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_2df23b2386634310a4649d948edf9a8c",
         "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_2df23b2386634310a4649d948edf9a8c",
         "createdAt": "2026-10-29T22:05:31+08:00",
-        "views": 22,
+        "views": 23,
         "likes": 0,
         "comments": 0,
-        "heat": 22
+        "heat": 23
       },
       {
         "rank": 4,
@@ -315,10 +315,10 @@
         "url": "https://skillpay.alipay.com/shelf/product?productId=P0806000211809850&merchantId=2088342180612670",
         "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_7d34ed0fbbaa4b69ac6fae0a97c48707",
         "createdAt": "2026-10-30T16:42:52+08:00",
-        "views": 20,
+        "views": 21,
         "likes": 0,
         "comments": 0,
-        "heat": 20
+        "heat": 21
       },
       {
         "rank": 9,
@@ -845,7 +845,7 @@
       "id": "HKWI_7d34ed0fbbaa4b69ac6fae0a97c48707",
       "t": "像素说唱 MV 生成器",
       "tr": "SKILL_PAY",
-      "v": 20,
+      "v": 21,
       "l": 0,
       "c": 0
     },
@@ -877,7 +877,7 @@
       "id": "HKWI_2df23b2386634310a4649d948edf9a8c",
       "t": "婚宴座次重排",
       "tr": "VIBE_PAY",
-      "v": 22,
+      "v": 23,
       "l": 0,
       "c": 0
     },
