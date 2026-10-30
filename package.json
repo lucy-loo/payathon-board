@@ -1,0 +1,12 @@
+{
+  "name": "payathon-board",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PAYATHON 2026 参赛作品看板（按赛道统计 + 各赛道热度 Top 10），每日自动更新",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "serve": "node scripts/serve.mjs",
+    "preview": "node scripts/scrape.mjs && node scripts/serve.mjs"
+  }
+}

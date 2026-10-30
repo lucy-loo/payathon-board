@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAYATHON 2026 · 参赛作品看板</title>
+  <meta name="description" content="PAYATHON 2026 参赛作品按赛道统计与各赛道热度 Top 10，每日自动更新。" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>PAYATHON 2026</span>
+      </div>
+      <h1>参赛作品看板</h1>
+      <p class="sub">按赛道统计作品数量 · 各赛道热度 Top 10 · 每日自动更新</p>
+      <p class="meta">
+        更新于 <time id="updated">—</time>
+        <span class="sep">·</span>
+        共 <strong id="total">—</strong> 件作品
+        <span class="sep">·</span>
+        <a id="source-link" href="https://aipay.alipay.com/community?chinfo=huodong&view=products%2Fpayathon" target="_blank" rel="noopener">数据来源</a>
+      </p>
+      <div class="date-bar">
+        <label for="date-select">数据日期</label>
+        <select id="date-select" aria-label="选择数据日期"></select>
+        <span class="date-hint" id="date-hint"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="card-head">
+        <h2>按赛道分类</h2>
+        <span class="hint" id="track-hint"></span>
+      </div>
+      <div class="table-wrap">
+        <table class="track-table" id="track-table">
+          <thead>
+            <tr><th>赛道</th><th class="num">数量</th><th class="spark-col">趋势</th><th class="share-col">占比</th></tr>
+          </thead>
+          <tbody id="track-body">
+            <tr><td colspan="4" class="empty">加载中…</td></tr>
+          </tbody>
+          <tfoot id="track-foot"></tfoot>
+        </table>
+      </div>
+      <div class="chart-block">
+        <div class="chart-head">
+          <h3>各赛道作品数量趋势</h3>
+          <span class="hint">按赛道分组 · 每天一个点</span>
+        </div>
+        <div class="chart" id="chart-tracks"></div>
+        <div class="legend" id="legend-tracks"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>各赛道热度 Top 10</h2>
+        <span class="hint">热度 = 浏览量 ×1 + 点赞 ×10 + 评论 ×10</span>
+      </div>
+      <div class="tabs" id="tabs" role="tablist"></div>
+      <div class="chart-block">
+        <div class="chart-head">
+          <div class="metric-toggle" id="metric-toggle">
+            <button type="button" data-metric="views" aria-pressed="true">浏览量</button>
+            <button type="button" data-metric="likes" aria-pressed="false">点赞数</button>
+          </div>
+        </div>
+        <div class="chart" id="chart-top"></div>
+        <div class="legend" id="legend-top"></div>
+      </div>
+      <div class="top-list" id="top-list">
+        <div class="empty">加载中…</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>数据来自支付宝 AI 付社区公开接口，由 GitHub Actions 每日抓取生成静态页面。</span>
+  </footer>
+
+  <script src="./charts.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
