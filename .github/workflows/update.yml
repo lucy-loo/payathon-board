@@ -99,8 +99,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
+      # 关键：默认 checkout 检出的是触发本次运行的 commit（github.sha），
+      # 它不包含上面 update job 刚 push 的数据提交，会导致部署旧数据。
+      # 必须显式指定分支，取远端最新 main。
+      - name: Checkout (latest main, 含刚提交的数据)
         uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
