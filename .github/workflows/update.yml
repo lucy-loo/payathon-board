@@ -2,13 +2,19 @@ name: Update PAYATHON data
 
 on:
   schedule:
-    # 每日凌晨执行：UTC 16:10 = 北京时间次日 00:10
+    # 主触发：UTC 16:10 = 北京时间 00:10
     - cron: "10 16 * * *"
+    # 兜底触发：UTC 20:40 = 北京时间 04:40
+    # GitHub 的 schedule 是 best-effort，主触发可能被延迟数小时、甚至整次被跳过。
+    # 这条负责补跑；若当日快照已存在，下面的守卫会直接跳过，不会重复抓取。
+    - cron: "40 20 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# 同一时刻只允许一次数据更新：后到的那次会排队等待，前一次跑完后它才启动，
+# 启动时 checkout 到的是已含当日快照的最新提交，因而会被守卫判为“无需抓取”。
 concurrency:
   group: payathon-data
   cancel-in-progress: false
@@ -23,35 +29,50 @@ jobs:
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
     steps:
-      - name: 赛程窗口检查
-        id: window
+      # 先 checkout：守卫需要读 public/data/daily/ 判断当日快照是否已存在
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: 抓取前置检查（赛程窗口 / 当日快照 / 触发方式）
+        id: gate
         run: |
           today="$(TZ=Asia/Shanghai date +%F)"
-          echo "今日(北京): $today / 截止: $PAYATHON_END_DATE"
+          echo "今日(北京): $today / 截止: $PAYATHON_END_DATE / 触发方式: $GITHUB_EVENT_NAME"
+
+          # 手动触发始终抓取，便于随时补数据
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
           if [[ "$today" > "$PAYATHON_END_DATE" ]]; then
             echo "run=false" >> "$GITHUB_OUTPUT"
             echo "::notice::已过赛程截止日，跳过本次抓取"
-          else
-            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
 
-      - name: Checkout
-        if: steps.window.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
-        uses: actions/checkout@v7
+          # 当日快照文件名即北京日期（见 scripts/scrape.mjs 的 shanghaiDate）
+          if [[ -f "public/data/daily/$today.json" ]]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::当日快照 $today.json 已存在，跳过本次抓取"
+            exit 0
+          fi
+
+          echo "run=true" >> "$GITHUB_OUTPUT"
 
       - name: Setup Node
-        if: steps.window.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.gate.outputs.run == 'true'
         uses: actions/setup-node@v7
         with:
           node-version: 24
 
       - name: Scrape PAYATHON works (按天写入快照)
-        if: steps.window.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.gate.outputs.run == 'true'
         run: node scripts/scrape.mjs
 
       - name: Commit updated data
         id: commit
-        if: steps.window.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
