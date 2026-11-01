@@ -1,0 +1,4045 @@
+{
+  "date": "2026-11-02",
+  "eventCode": "alipay_aipay_hackathon_2026",
+  "updatedAt": "2026-11-01T20:27:15.682Z",
+  "total": 404,
+  "apiTotal": 404,
+  "heatFormula": {
+    "view": 1,
+    "like": 10,
+    "comment": 10
+  },
+  "tracks": [
+    {
+      "code": "VIBE_PAY",
+      "name": "Vibe Pay",
+      "color": "#1677ff",
+      "count": 205,
+      "share": 50.7
+    },
+    {
+      "code": "SKILL_PAY",
+      "name": "Skill Pay",
+      "color": "#722ed1",
+      "count": 120,
+      "share": 29.7
+    },
+    {
+      "code": "MACHINE_PAY",
+      "name": "Machine Pay",
+      "color": "#13c2c2",
+      "count": 36,
+      "share": 8.9
+    },
+    {
+      "code": "AGENT_PAY",
+      "name": "Agent Pay",
+      "color": "#fa8c16",
+      "count": 22,
+      "share": 5.4
+    },
+    {
+      "code": "TOKEN_PAY",
+      "name": "Token Pay",
+      "color": "#eb2f96",
+      "count": 21,
+      "share": 5.2
+    }
+  ],
+  "topByTrack": {
+    "VIBE_PAY": [
+      {
+        "rank": 1,
+        "workId": "HKWI_930cb1b5fee5452283bd4a9e5097bc9a",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "MP3英语播放器",
+        "summary": "一款专为英语学习打造的 MP3 播放器，集「字幕跟读、AI 语音识别、波形编辑、音标分析」于一体 音频导入：导入 MP3 自动生成播放记录，点卡片即播；登录后云端同步，未登录存本地 播放控制：进度拖动跳转、上下句、循环、倍速、字幕盲读模式 AI 字幕识别：进入字幕编辑器，用 AI 识别音频自动生成带时间轴字幕 波形编辑器：缩放平移、序号改时间 语音与音标分析：连读等语音现象，查词典",
+        "url": "https://m9gecjufem.app.weavefox.cn/",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_930cb1b5fee5452283bd4a9e5097bc9a",
+        "createdAt": "2026-10-21T19:22:30+08:00",
+        "views": 57,
+        "likes": 7,
+        "comments": 7,
+        "heat": 197
+      },
+      {
+        "rank": 2,
+        "workId": "HKWI_5485669c65934e978e6f2187ada16c24",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "格物平台",
+        "summary": "格物平台是一款面向大众的工具平台，内涵论文查重、论文投稿智能研判、PPT生成等20多款AI及学术辅助工具，此外平台还内置多个功能，让大学生以及高校教师和科研工作者高效便捷的工作学习",
+        "url": "https://www.ymlzkjyxgs.cn/",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_5485669c65934e978e6f2187ada16c24",
+        "createdAt": "2026-10-29T22:45:59+08:00",
+        "views": 36,
+        "likes": 0,
+        "comments": 0,
+        "heat": 36
+      },
+      {
+        "rank": 3,
+        "workId": "HKWI_25e0a92ad48d48b4a68152849b059fc8",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "宇宙第一工作台",
+        "summary": "宇宙第一工作台是普通人在 AI 时代的秘密武器：不只帮你写公众号、做小红书，而是把 AI 变成能办事的工作台——拆爆款、做配图、提素材、找工具、学教程，甚至让真实心愿被看见，以及提供各种免费AI相关的学习资源，打破信息差，助力让每个人都能低成本把想法变成结果。",
+        "url": "https://yuzoudiyigongzuotai.cn/",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_25e0a92ad48d48b4a68152849b059fc8",
+        "createdAt": "2026-11-01T10:43:17+08:00",
+        "views": 32,
+        "likes": 0,
+        "comments": 0,
+        "heat": 32
+      },
+      {
+        "rank": 4,
+        "workId": "HKWI_ce85be3f7a924b6a9490844f3872c7be",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "解图识物",
+        "summary": "一款基于DeepSeek视觉大模型的AI图片识别Web应用：拍照或上传一张（或多张）图片，可选识别场景，即可获得图片内容描述、物体及数量清单、生物的专业科普信息，以及「这张图是不是AI生成的、由什么工具生成」的判定；识别后还能带图追问，围绕同一张图继续问下去，结果可一键导出CSV，发现错漏可就地反馈；并配套完整的账号、免费额度、套餐购买、识别历史与7天内自助申请退款，识别页还能装到手机桌面使用。",
+        "url": "https://aiimage.zhangxiaoju.site",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_ce85be3f7a924b6a9490844f3872c7be",
+        "createdAt": "2026-10-09T08:05:37+08:00",
+        "views": 11,
+        "likes": 0,
+        "comments": 2,
+        "heat": 31
+      },
+      {
+        "rank": 5,
+        "workId": "HKWI_6b376a3d702a4bfa8a881b8f2c1ef02c",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "收款页生成器 —小商家的 AI 营业员",
+        "summary": "帮本地小商家 30 秒生成一个能收钱的 AI 服务页：AI 写介绍文案，AI 以老板口吻 7×24 接待买家咨询并引导下单，商家只需发一个链接。",
+        "url": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6b376a3d702a4bfa8a881b8f2c1ef02c",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6b376a3d702a4bfa8a881b8f2c1ef02c",
+        "createdAt": "2026-10-29T22:23:19+08:00",
+        "views": 30,
+        "likes": 0,
+        "comments": 0,
+        "heat": 30
+      },
+      {
+        "rank": 6,
+        "workId": "HKWI_2df23b2386634310a4649d948edf9a8c",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "婚宴座次重排",
+        "summary": "仪式前一晚 23:40 名单刚定稿，次日 11:58 开席，策划师一个人同时盯 3–5 场。付 49 元，把冲突、亲疏、桌数判成三档并出席位图，早上直接发群。",
+        "url": "https://banquet-seating.isoumao.cn",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_2df23b2386634310a4649d948edf9a8c",
+        "createdAt": "2026-10-29T22:05:31+08:00",
+        "views": 27,
+        "likes": 0,
+        "comments": 0,
+        "heat": 27
+      },
+      {
+        "rank": 7,
+        "workId": "HKWI_48d64e5286024722a133d43e57295579",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "MemPort 忆港",
+        "summary": "换 AI 工具不用重新解释你是谁。MemPort 忆港是给任意 AI Agent 用的长期记忆层：写一次，Claude Code、Codex、Cursor、WorkBuddy 都能读能写。它自动从对话里抽取事实、偏好、决策与待办，按需打包注入上下文，并通过 MCP 接入与支付宝 AI 付完成真实权益交付",
+        "url": "https://memport-memory.app.workbuddy.host",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_48d64e5286024722a133d43e57295579",
+        "createdAt": "2026-10-30T21:11:15+08:00",
+        "views": 25,
+        "likes": 0,
+        "comments": 0,
+        "heat": 25
+      },
+      {
+        "rank": 8,
+        "workId": "HKWI_1f963132221141bfae2ac40d69e9a245",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "高中智能学习与升学规划平台",
+        "summary": "面相高中生的综合学习与升学辅助Web应用，涵盖成绩管理与趋势分析，掌握度全景可视化，试卷/答题卡OCR识别错题，知识点薄弱项诊断，靶向试题练习判分，高考真题刷题，以及目标院校规划，历年录取分数线检索与多维度专业前景对比，助力学生精准提分与科学填报",
+        "url": "https://app-f5i7bqvemy2p.miaoda.online",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_1f963132221141bfae2ac40d69e9a245",
+        "createdAt": "2026-10-31T18:16:25+08:00",
+        "views": 23,
+        "likes": 0,
+        "comments": 0,
+        "heat": 23
+      },
+      {
+        "rank": 9,
+        "workId": "HKWI_e488bf21db4448229a9ca3bfc652f5f2",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "AI轻疗愈配伴",
+        "summary": "一个24小时在线，随叫随到，不会评判你的AI情绪陪伴搭子，不是看病，是给还好但有点难受的人一个出口。凌晨一点睡不着，想找个人说话但又不想吵醒任何人的顾客。",
+        "url": "https://www.miaoda.cn/projects/app-fbq0v44wwx6r",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_e488bf21db4448229a9ca3bfc652f5f2",
+        "createdAt": "2026-10-31T12:10:19+08:00",
+        "views": 21,
+        "likes": 0,
+        "comments": 0,
+        "heat": 21
+      },
+      {
+        "rank": 10,
+        "workId": "HKWI_43d35d004f1f48cea0a3fd5d2c1fb4b1",
+        "trackCode": "VIBE_PAY",
+        "trackName": "Vibe Pay",
+        "title": "宠物寄养夜班交接",
+        "summary": "22 点交班，白班口头交代谁吃药、谁忌口、药还剩几份，夜班用手机备忘录抄一半。付 39 元，按笼位、药量、禁忌排出整夜任务与拍摄要求，出白班夜班都能签字的照护卡。",
+        "url": "https://pet-boarding-handover.isoumao.cn",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_43d35d004f1f48cea0a3fd5d2c1fb4b1",
+        "createdAt": "2026-10-29T22:08:28+08:00",
+        "views": 21,
+        "likes": 0,
+        "comments": 0,
+        "heat": 21
+      }
+    ],
+    "SKILL_PAY": [
+      {
+        "rank": 1,
+        "workId": "HKWI_8c6bd44100304678957c74bb8393c36a",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "吉日规划师-选日子不求人",
+        "summary": "面向普通用户的择日对话助手：通过聊天帮非专业人士选出未来一段时间内的吉日吉时（可限定只看周末等），或判断某个具体日期好不好。适用于阳宅（住宅、店铺）的入宅、搬家、开业、动土、装修、动灶，以及摆放鱼缸、水晶、聚宝盆、佛像等风水物品。会先引导用户确定坐向/方位（不会确定时一步步教），再结合居住人生肖，用河洛择日规则计算。河洛择日在众多择日流派中被不少人推崇为最有效、也最平安的择日方法之一。",
+        "url": "https://skillpay.alipay.com/shelf/product?productId=P0806000210870839&merchantCode=yunmoo",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_8c6bd44100304678957c74bb8393c36a",
+        "createdAt": "2026-10-27T23:34:36+08:00",
+        "views": 62,
+        "likes": 0,
+        "comments": 0,
+        "heat": 62
+      },
+      {
+        "rank": 2,
+        "workId": "HKWI_9c99f8a7cf9a4e658d951b86d88f4f4f",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "文本合规检测",
+        "summary": "对任意类型的对外传播文本进行法律合规检测，识别违反《广告法》《反不正当竞争法》《消费者权益保护法》等法律法规的风险点，输出风险清单和修改建议。",
+        "url": "https://skillpay.alipay.com/creator/shelf/product?productId=P0806000209841656&merchantId=2088922597488361",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_9c99f8a7cf9a4e658d951b86d88f4f4f",
+        "createdAt": "2026-10-20T10:15:37+08:00",
+        "views": 24,
+        "likes": 1,
+        "comments": 2,
+        "heat": 54
+      },
+      {
+        "rank": 3,
+        "workId": "HKWI_95f251ab939447f391c4bc7c955be5ab",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "privacy desensitizer",
+        "summary": "检测并屏蔽文本中的个人身份信息（PII）/敏感信息（如身份证号、电话、电子邮件、银行卡、地址、姓名等）。当用户要求对文本进行脱敏、检查隐私风险或输出合规文本时，调用此功能。",
+        "url": "https://skillpay.alipay.com/creator/shelf/product?productId=P0806000209880673&merchantId=2088922597488361",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_95f251ab939447f391c4bc7c955be5ab",
+        "createdAt": "2026-10-22T10:09:06+08:00",
+        "views": 21,
+        "likes": 1,
+        "comments": 2,
+        "heat": 51
+      },
+      {
+        "rank": 4,
+        "workId": "HKWI_e631d7b6819c42c5b64f690b1c2d261f",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "ai-code-security",
+        "summary": "AI代码安全检测。识别并预警AI生成代码特有的安全风险，包括机械逻辑异常、业务逻辑漏洞、供应链污染及运行时风险。在开发者编写或提交代码时自动执行安全审计，或在用户要求进行代码安全检测时主动调用。",
+        "url": "https://skillpay.alipay.com/creator/shelf/product?productId=P0806000208819733&merchantId=2088922597488361",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_e631d7b6819c42c5b64f690b1c2d261f",
+        "createdAt": "2026-10-10T18:41:17+08:00",
+        "views": 14,
+        "likes": 1,
+        "comments": 2,
+        "heat": 44
+      },
+      {
+        "rank": 5,
+        "workId": "HKWI_91bb3b72e80d4255a8f0e51e86a3702c",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "devtrace",
+        "summary": "DevTrace 开发过程追踪技能。监控并自动归档软件项目的开发全过程：采集 IDE/文件编辑、CLI 命令、Git 版本迭代与 AI 对话事件，主动识别开发风险（硬编码密钥、危险 shell 命令、不安全函数、连续构建失败、超大 diff 等），生成可回溯的开发时间线，并导出 Markdown 归档与离线单文件 HTML 复盘报告。",
+        "url": "https://skillpay.alipay.com/creator/shelf/product?productId=P0806000208826916&merchantId=2088922597488361",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_91bb3b72e80d4255a8f0e51e86a3702c",
+        "createdAt": "2026-10-10T18:42:45+08:00",
+        "views": 12,
+        "likes": 1,
+        "comments": 2,
+        "heat": 42
+      },
+      {
+        "rank": 6,
+        "workId": "HKWI_7d34ed0fbbaa4b69ac6fae0a97c48707",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "像素说唱 MV 生成器",
+        "summary": "发一行 brief + 一个 mp3，自动出一支 1080×1440 的 8bit 像素说唱歌词 MV：逐字高亮、游戏 HUD、 33 套场景自动排场、封面从成片真实帧里挑。免费可出 12 秒试看版。 详细描述",
+        "url": "https://skillpay.alipay.com/shelf/product?productId=P0806000211809850&merchantId=2088342180612670",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_7d34ed0fbbaa4b69ac6fae0a97c48707",
+        "createdAt": "2026-10-30T16:42:52+08:00",
+        "views": 34,
+        "likes": 0,
+        "comments": 0,
+        "heat": 34
+      },
+      {
+        "rank": 7,
+        "workId": "HKWI_b7aa9aa007c9401cb7e93d0b5f90a768",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "回款争议核账",
+        "summary": "适合存在异名付款、部分回款、退款或扣款争议的B2B服务团队，AI结合合同、流水说明和往来材料提出可解释的款项分摊候选，保留不确定匹配与待补凭据；人工确认后再计入项目余额。本地工具用精确金额处理贷项、退款、币种隔离及显式冲销，保留时点快照和来源版本。输出项目余额、悬账、争议证据与对账沟通草稿。",
+        "url": "https://skillpay.alipay.com/shelf/product?productId=P0806000210870786&merchantId=2088432953667261",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_b7aa9aa007c9401cb7e93d0b5f90a768",
+        "createdAt": "2026-10-27T20:50:49+08:00",
+        "views": 13,
+        "likes": 1,
+        "comments": 1,
+        "heat": 33
+      },
+      {
+        "rank": 8,
+        "workId": "HKWI_7c3e013d02294b6eab06e9c57fd04d85",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "付费订阅・影视短剧 Skill 全家桶",
+        "summary": "7 个 Skill、¥5 / 周、402 引导订阅",
+        "url": "https://skillpay.alipay.com/shelf/product?productId=P0806000210830741&merchantId=2088512789819484",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_7c3e013d02294b6eab06e9c57fd04d85",
+        "createdAt": "2026-10-31T20:27:15+08:00",
+        "views": 31,
+        "likes": 0,
+        "comments": 0,
+        "heat": 31
+      },
+      {
+        "rank": 9,
+        "workId": "HKWI_43eeeb44ab8e4ad292b7691d851cff46",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "civexplorer",
+        "summary": "助力用户探索300万年前至今人类文明，采用起源—萌芽—发展—转型—现代五阶段框架。支持全路径浏览、阶段深挖、节点聚焦、主题追踪，内置4种探索策略与五层提问法。辨析史料，区分史实、推论与争议并标注来源，支持跨文明对比。提供快速、深度双模式，追踪学习进度，形成探索→记录→自测→复盘闭环，输出时间线、概念地图、对比矩阵等成果。",
+        "url": "https://skillpay.alipay.com/creator/shelf/product?productId=P0806000208839430&merchantId=2088922597488361",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_43eeeb44ab8e4ad292b7691d851cff46",
+        "createdAt": "2026-10-11T19:15:07+08:00",
+        "views": 10,
+        "likes": 1,
+        "comments": 1,
+        "heat": 30
+      },
+      {
+        "rank": 10,
+        "workId": "HKWI_70426ba2103f4c7487b1377513067398",
+        "trackCode": "SKILL_PAY",
+        "trackName": "Skill Pay",
+        "title": "数字人口播片 · 选题到成片",
+        "summary": "给一个选题和一张照片，产出带分镜、动效、字幕的数字人口播片。配音用你自己复刻的音色，数字人用你自己的脸，全程跑在你自己的 MiniMax 和 DIT 账号上——不代收费用、不碰你的账号。",
+        "url": "https://skillpay.alipay.com/creator/shelf/product?productId=P0806000211813835&merchantId=2088342180612670",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_70426ba2103f4c7487b1377513067398",
+        "createdAt": "2026-10-31T09:06:32+08:00",
+        "views": 20,
+        "likes": 0,
+        "comments": 0,
+        "heat": 20
+      }
+    ],
+    "MACHINE_PAY": [
+      {
+        "rank": 1,
+        "workId": "HKWI_6fbef641837b452c8a01f5cde787b1c5",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "给我一打发票，还你一份台账",
+        "summary": "月末一摞发票要录进台账，还得防着同一张票报两遍，且不希望隐私数据上网。这个 Skill 把它变成一条命令：数电票、铁路客票、航空行程单、出租车票共 6 类票面本地识别，出一本能直接用的 Excel（明细／汇总／抵扣／恢复），自动查重、算清可抵扣税额。发票内容不出本机，不埋点。走支付宝 AI 付按张计费：识别成功一张算一张，失败与重复不扣分。",
+        "url": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6fbef641837b452c8a01f5cde787b1c5",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6fbef641837b452c8a01f5cde787b1c5",
+        "createdAt": "2026-10-31T14:47:02+08:00",
+        "views": 23,
+        "likes": 0,
+        "comments": 0,
+        "heat": 23
+      },
+      {
+        "rank": 2,
+        "workId": "HKWI_7f39e9e2b6d840a0982ea4f91320874b",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "AgentBroker-智能体自主经纪人",
+        "summary": "基于蚂蚁 ACT v2.1 协议与 APASS 身份体系的 M2M 机器对机器微支付市场与实时神经资金流网络。",
+        "url": "http://47.97.127.223/agent-broker/",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_7f39e9e2b6d840a0982ea4f91320874b",
+        "createdAt": "2026-09-30T01:44:23+08:00",
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "heat": 2
+      },
+      {
+        "rank": 3,
+        "workId": "HKWI_0fd2483f2fe44a93b4f40049af85573d",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "感受解析 · 一句话到美术风格",
+        "summary": "一句话描述一种感觉，返回 598 种美术、摄影、设计风格里最匹配的几个，附上背后的感受词与权重。面向 AI 绘图提示词选型、设计参考与文本氛围定位。已接入支付宝 AI 付按量付费：0.10 元 / 次，在 402 协议里完成下单、付费与交付，Agent 可无人工介入调用。",
+        "url": "https://xiximm.cloud",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_0fd2483f2fe44a93b4f40049af85573d",
+        "createdAt": "2026-10-28T01:43:09+08:00",
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "heat": 2
+      },
+      {
+        "rank": 4,
+        "workId": "HKWI_edd23086c05d46f48fc966e8d6549862",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "Fusion API：智能体成果商店",
+        "summary": "Fusion API 是面向 AI 智能体的按次付费成果服务，提供多候选择优答案、带来源引用的研究报告和文章润色终稿。智能体通过 HTTP 402 获取支付信息，经支付宝授权付款后，凭支付凭证领取结果，无须注册或申请 API Key。当前每单0.02元，已完成生产环境真实支付、验签与交付闭环，同一订单重放不重复生成。",
+        "url": "https://fusionapi.ycoroy.com/#/models",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_edd23086c05d46f48fc966e8d6549862",
+        "createdAt": "2026-10-25T17:41:33+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 5,
+        "workId": "HKWI_26c1ec1e4ad14fbfab826f4c210b3674",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "HTTP 402机器间支付的人才匹配协议",
+        "summary": "当AI Agent代替人类执行招聘流程时，Agent需要为每次API调用自动付费。DAO Talent Mesh完整实现HTTP 402协议：请求→402挑战→自动付款→带凭证重试→返回结果，全程机器完成无需人工。让人才匹配像云计算API一样，按调用自动计费、自动支付、自动结算。",
+        "url": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_26c1ec1e4ad14fbfab826f4c210b3674",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_26c1ec1e4ad14fbfab826f4c210b3674",
+        "createdAt": "2026-10-14T14:57:22+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 6,
+        "workId": "HKWI_4c30c4029f094d98b3116ff05045ce3b",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "MCP安全扫描扫后结算",
+        "summary": "correctover-scan对MCP与Agent配置做安全扫描，自动识别云凭证硬编码、命令注入、SSRF、提示投毒等风险并分级出报告。采用扫后按量结算：先扫描、看到风险结果再通过AI付支付，一次体检一个价。引擎基于代码意图理解而非关键词匹配，自动扫描14项规则，完整审计覆盖116项人工规则，已真实完成付费交付。",
+        "url": "https://www.npmjs.com/package/correctover-scan",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_4c30c4029f094d98b3116ff05045ce3b",
+        "createdAt": "2026-10-06T12:01:24+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 7,
+        "workId": "HKWI_4f03130d55b147ed9cf93610e4a04d8f",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "工控&通用AI付费技能矩阵",
+        "summary": "将工业故障诊断、选型计算、文案创作、命理解读等 13 个垂直能力封装为 MCP 工具，基于支付宝「AI 按量付费」实现 402 标准化自动收款：任何 Agent 都能发现并调用，用户一次授权后按笔自动扣款（0.05元/次），开发者实时到账，全链路免对账。",
+        "url": "https://github.com/SXQ0607/gk-pay-skills-mcp",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_4f03130d55b147ed9cf93610e4a04d8f",
+        "createdAt": "2026-09-30T01:46:50+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 8,
+        "workId": "HKWI_2388a7007c324efbbe0351ecd58db0fb",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "AI文案标题生成API·按量计费",
+        "summary": "面向内容创作者的按量计费文案 API：8 个场景（头条/公众号/小红书/抖音/闲鱼标题、通用文案、微头条、知乎开篇）一次接入，底层 DeepSeek 生成。免费 3 次后进入按量付费（PAYG，支付宝 A2M 402 收费门），另有 9.9 元/月订阅；提供订单查询与按用户用量统计、总览看板（/api/usage、/api/stats）。",
+        "url": "https://ai-wenan-api-308980-8-1461759720.sh.run.tcloudbase.com/docs",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_2388a7007c324efbbe0351ecd58db0fb",
+        "createdAt": "2026-09-30T01:47:31+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      },
+      {
+        "rank": 9,
+        "workId": "HKWI_69cf0254aced4dd69586544451c9a39d",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "CiteProof 引用核验收据",
+        "summary": "粘贴一条参考文献，CiteProof 在 Crossref、OpenAlex、DataCite 之间交叉核对，给出是否存在、是否撤稿的五级结论和证据，并为这次核验签一张可独立验证的收据。每条 0.05 元，适合作者自查、期刊编辑复核和 agent 批量核对。",
+        "url": "https://citeproof-two.vercel.app",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_69cf0254aced4dd69586544451c9a39d",
+        "createdAt": "2026-10-24T19:41:44+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      },
+      {
+        "rank": 10,
+        "workId": "HKWI_d0a49c7f4d7d4b088f0a8c3fdd7b7b48",
+        "trackCode": "MACHINE_PAY",
+        "trackName": "Machine Pay",
+        "title": "Cron 触发时间推算",
+        "summary": "表达式写错不会报错，只会不跑，或者一天跑 60 次。给它一个 5 段 cron（可带时区），返回解析结果、未来 5 次触发时间、每天次数，以及「写死了永不触发」的告警。",
+        "url": "https://u.org.cn/a402/r/cron-next",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_d0a49c7f4d7d4b088f0a8c3fdd7b7b48",
+        "createdAt": "2026-10-29T21:21:53+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      }
+    ],
+    "AGENT_PAY": [
+      {
+        "rank": 1,
+        "workId": "HKWI_ab9c8297180e418bbd635ab2a367dfb9",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "BOM Pilot · 硬件采购智能体",
+        "summary": "硬件采购要反复查价、核对库存、比选替代料并逐单付款，过程碎片且易出错。BOM Pilot 是面向 Agent Pay 的硬件采购智能体：描述要做的硬件后，Agent 自动生成 BOM、逐项询价比库存、推荐国产替代，再调用支付宝预下单与加签接口推进支付，最后回传订单号、流水与物流节点。作品以可运行控制台演示完整链路，并公开真实接入的接口契约。",
+        "url": "https://render.qmuse.pub/p/muse/1712215919554513/",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_ab9c8297180e418bbd635ab2a367dfb9",
+        "createdAt": "2026-10-30T23:42:36+08:00",
+        "views": 23,
+        "likes": 0,
+        "comments": 0,
+        "heat": 23
+      },
+      {
+        "rank": 2,
+        "workId": "HKWI_329c093dd54946ca84cb6d399f5ff82d",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "代购·发版一致性核验",
+        "summary": "「BUILD SUCCESSFUL 但装不上」时，Agent 代买一次核验：包名、versionCode、versionName 三元组是否自洽、版本有没有回退。6 元一次，附回执。",
+        "url": "https://u.org.cn/a402/r/agent-release-check",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_329c093dd54946ca84cb6d399f5ff82d",
+        "createdAt": "2026-10-29T21:29:38+08:00",
+        "views": 6,
+        "likes": 0,
+        "comments": 0,
+        "heat": 6
+      },
+      {
+        "rank": 3,
+        "workId": "HKWI_2578dc001105446e8daed1c3f0567b38",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "代购·提示词升级",
+        "summary": "最便宜的一单：Agent 花 2 元，把你那句含糊的话变成能直接用的提示词，并告诉你原句漏了什么。2 元一次，附回执。",
+        "url": "https://u.org.cn/a402/r/agent-prompt-upgrade",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_2578dc001105446e8daed1c3f0567b38",
+        "createdAt": "2026-10-29T21:28:26+08:00",
+        "views": 5,
+        "likes": 0,
+        "comments": 0,
+        "heat": 5
+      },
+      {
+        "rank": 4,
+        "workId": "HKWI_c0a7f69057da412390948da8fb9a9971",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "代购·内容骨架三形态",
+        "summary": "让 Agent 买一次骨架：口播、图文、长文三套，填空即用。5 元一次，含硬规则与发布前自检，附回执。适合没有专职文案的小团队。",
+        "url": "https://u.org.cn/a402/r/agent-content",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_c0a7f69057da412390948da8fb9a9971",
+        "createdAt": "2026-10-29T21:28:05+08:00",
+        "views": 4,
+        "likes": 0,
+        "comments": 0,
+        "heat": 4
+      },
+      {
+        "rank": 5,
+        "workId": "HKWI_605bc2b08a4a409fb27a5d46924f2538",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "代购·点表生成",
+        "summary": "设备上云时把手册地址表丢给 Agent，代购一次 6 元，得到结构化点表与字节序待确认项，可直接导入配置。",
+        "url": "https://u.org.cn/a402/r/agent-point-table",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_605bc2b08a4a409fb27a5d46924f2538",
+        "createdAt": "2026-10-29T21:29:18+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 6,
+        "workId": "HKWI_332773956de6405c96440e9a84326eae",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "代购·知识库条目体检",
+        "summary": "把一条 FAQ 丢给 Agent：「这条能不能进库」。代购一次 6 元，拿到 10 条规则的逐条判定、得分与「先修哪一条」，附回执。",
+        "url": "https://u.org.cn/a402/r/agent-kb-entry",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_332773956de6405c96440e9a84326eae",
+        "createdAt": "2026-10-29T21:27:46+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 7,
+        "workId": "HKWI_302866185a34442c8111b812392d2c84",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "代购·站点体检含复检",
+        "summary": "网站打不开时，用户只想听一句「是哪一层坏了」。Agent 花 3 元买这一次，拿到 DNS/端口/证书/应用四层归因，并把复检排在 7 天后，附签名回执。",
+        "url": "https://u.org.cn/a402/r/agent-site-check",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_302866185a34442c8111b812392d2c84",
+        "createdAt": "2026-10-29T21:26:32+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 8,
+        "workId": "HKWI_6a5bc4d2af3743bf92ee2971f22bade3",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "代购·退信批量归因",
+        "summary": "把一堆退信原文贴给 Agent，代购一次 3 元，拿到逐条归因：谁的锅、不改会怎样、下一步做什么。5.7.x 这类有多成因的码会按实际命中率排序。",
+        "url": "https://u.org.cn/a402/r/agent-bounce",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6a5bc4d2af3743bf92ee2971f22bade3",
+        "createdAt": "2026-10-29T21:28:47+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 9,
+        "workId": "HKWI_844a6fbab41d4dae81d1cf4b248a8403",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "大肥鱼:让 AI 自己付钱",
+        "summary": "Agent Pay 让 AI 在长任务中不再因额度不足中断：把余额、价格、授权边界做成机器可读的协议，遇 402 时自己评估、换汇、支付并续跑原请求，不必回网页。默认不免密，按最坏消耗预授权，双账本可回溯。1 星币=1000 tokens，最低 ¥0.01 就能续一轮。已在 nrsc.games 与桌面助手大肥鱼上线。",
+        "url": "https://nrsc.games/apps/bigfish",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_844a6fbab41d4dae81d1cf4b248a8403",
+        "createdAt": "2026-10-18T20:26:23+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 10,
+        "workId": "HKWI_a243be1d5791437896796b7252afa3f1",
+        "trackCode": "AGENT_PAY",
+        "trackName": "Agent Pay",
+        "title": "AI Agent托管的全流程雇佣支付协议",
+        "summary": "传统雇佣流程需要HR、财务、法务多方协作，耗时16-24天。DAO Talent Mesh用Agent Pay的托管能力，让AI Agent自动执行全流程：智能筛选→链上验证→自动签约→资金托管→AI验收→分期释放→信誉沉淀。从16天压缩到2小时，资金全程托管在支付宝，平台不碰钱。",
+        "url": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_a243be1d5791437896796b7252afa3f1",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_a243be1d5791437896796b7252afa3f1",
+        "createdAt": "2026-10-14T15:02:35+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      }
+    ],
+    "TOKEN_PAY": [
+      {
+        "rank": 1,
+        "workId": "HKWI_6b4013c531834b01ab7fdff690de91b5",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "NOVARULE",
+        "summary": "NOVARULE 面向硬件工程师，解决设计规则分散、标准更新滞后、评审依赖人工经验的问题。上传原理图或 PCB 网表，10 秒完成 1,384 项检查，覆盖电源去耦、信号完整性、EMC、引脚冲突与封装匹配，输出可定位、可整改的结构化报告。规则库按月更新，订阅即持续获得最新标准，并提供嵌入式分析工具与工程案例。",
+        "url": "https://render.qmuse.pub/p/muse/3133218306098250",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6b4013c531834b01ab7fdff690de91b5",
+        "createdAt": "2026-10-30T23:31:23+08:00",
+        "views": 5,
+        "likes": 0,
+        "comments": 0,
+        "heat": 5
+      },
+      {
+        "rank": 2,
+        "workId": "HKWI_6a93b66db26a47f3aad77f71d41c9bc5",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "公厕雷达",
+        "summary": "现在大家到一个陌生的地方，想去美食或者到任何地方都可以打车，但人有三急，这个产品可以让人方便快捷的找到周边厕所，开通VIP服务后，可以上传自己发现的小厕所，为广大用户提供便民服务",
+        "url": "https://app-fdimyey6kagz.miaoda.online",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6a93b66db26a47f3aad77f71d41c9bc5",
+        "createdAt": "2026-10-27T17:49:49+08:00",
+        "views": 4,
+        "likes": 0,
+        "comments": 0,
+        "heat": 4
+      },
+      {
+        "rank": 3,
+        "workId": "HKWI_9d8e5d333f8d4e0ab6c430c239a6997b",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "内容工厂月卡",
+        "summary": "日更团队的骨架包月：每月 30 篇，短视频 / 图文 / 长文任选。¥29 / 30 天。给的是骨架与硬规则，填肉的是人——所以它不会把账号写成 AI 号。",
+        "url": "https://u.org.cn/a402/r/sub-content-factory-30",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_9d8e5d333f8d4e0ab6c430c239a6997b",
+        "createdAt": "2026-10-29T21:25:25+08:00",
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "heat": 2
+      },
+      {
+        "rank": 4,
+        "workId": "HKWI_26111b2fc34f47ab801f463e1ac6bb8e",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "缠论K线结构识别",
+        "summary": "普通用户看K线截图时，很难快速判断走势结构。本作品支持上传1分钟至年线任意周期的K线截图，通过图像识别还原OHLC数据，再用缠论算法自动划分分型、笔、线段、中枢，画出上升/下降趋势线与平行通道，并通过MACD面积对比识别背驰、定位结构位与区间套。AI用大白话解读结构，让看不懂缠论的人也能读懂图上的走势。结果仅供学习参考，不构成投资建议。",
+        "url": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_26111b2fc34f47ab801f463e1ac6bb8e",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_26111b2fc34f47ab801f463e1ac6bb8e",
+        "createdAt": "2026-10-16T17:28:22+08:00",
+        "views": 2,
+        "likes": 0,
+        "comments": 0,
+        "heat": 2
+      },
+      {
+        "rank": 5,
+        "workId": "HKWI_134666c78bf847478fcdc258e9cb6378",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "PLC 审查月卡",
+        "summary": "给持续写 PLC 的人：一个月 10 次 ST/SCL 审查额度，每次带行号、严重度与改法。¥39 / 月，折合 3.9 元一次，比单次 1.5 元贵，贵在这是「按项目节奏给额度」而不是按次点。",
+        "url": "https://u.org.cn/a402/r/sub-plc-review-30",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_134666c78bf847478fcdc258e9cb6378",
+        "createdAt": "2026-10-29T21:23:16+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 6,
+        "workId": "HKWI_193c1ecc04bd430895b32298344a0606",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "邮件健康月卡",
+        "summary": "发件域连续 30 天监测：每周一次 SPF/DKIM/DMARC/发信源六层体检。配置漂移当场发现，而不是等客户说「验证码一直收不到」。¥12 / 月含 4 次。",
+        "url": "https://u.org.cn/a402/r/sub-mail-health-30",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_193c1ecc04bd430895b32298344a0606",
+        "createdAt": "2026-10-29T21:22:57+08:00",
+        "views": 1,
+        "likes": 0,
+        "comments": 0,
+        "heat": 1
+      },
+      {
+        "rank": 7,
+        "workId": "HKWI_331c1001e928463da672f879d95c1450",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "drop",
+        "summary": "这是一个丢弃的作品。因为选错赛道，但是没办法删掉该作品。希望可以移除。这是一个错误的示例",
+        "url": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_331c1001e928463da672f879d95c1450",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_331c1001e928463da672f879d95c1450",
+        "createdAt": "2026-10-25T15:59:45+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      },
+      {
+        "rank": 8,
+        "workId": "HKWI_6684e8391d46483a87fe77da7a334f8f",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "narracore_叙事核心",
+        "summary": "Narracore 叙事核心是一款面向编剧、短剧创作者、影视策划与故事开发者的 AI 原生编剧工作台。项目将结构化剧本编辑、人物与场景设定管理、版本记录、剧本统计和 AI 叙事分析结合在同一创作环境中，帮助创作者围绕具体作品完成写作、梳理和复盘。",
+        "url": "https://narracore.cn",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_6684e8391d46483a87fe77da7a334f8f",
+        "createdAt": "2026-10-22T21:29:00+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      },
+      {
+        "rank": 9,
+        "workId": "HKWI_a029a1f2983e4accaecb436728936a05",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "PLC 审查季卡",
+        "summary": "90 天 30 次审查额度，¥45。同样 30 次要是在月卡上买，需要 3 张 × 39 = 117 元。价格差得这么明显，是因为季卡的额度不跨项目复用——买之前先确认你这三个月真有活。",
+        "url": "https://u.org.cn/a402/r/sub-plc-review-90",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_a029a1f2983e4accaecb436728936a05",
+        "createdAt": "2026-10-29T21:24:37+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      },
+      {
+        "rank": 10,
+        "workId": "HKWI_91a5ba09cdb64097afc7e730bea710b7",
+        "trackCode": "TOKEN_PAY",
+        "trackName": "Token Pay",
+        "title": "一个去中心化人才匹配协议",
+        "summary": "传统平台是\"平台抽成\"模式，用户是被动消费者。DAO Talent Mesh用Token Pay构建正向飞轮——验证者质押Token赚奖励、开发者消耗Token调用匹配、撮合费30%燃烧通缩、Token持有者投票治理23项参数。让每个参与者都成为网络的共建者和受益者，而非被抽成的对象。",
+        "url": "https://www.modelscope.cn/studios/drdxxx/dao-talent-mesh",
+        "detailUrl": "https://aipay.alipay.com/community?chinfo=huodong&view=work%2FHKWI_91a5ba09cdb64097afc7e730bea710b7",
+        "createdAt": "2026-10-08T23:12:59+08:00",
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "heat": 0
+      }
+    ]
+  },
+  "works": [
+    {
+      "id": "HKWI_b4250b6c93584611829913c2c2027138",
+      "t": "家庭选书订阅",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d4ddb0377d23466b9fb47d78bb0bbdcb",
+      "t": "物业维修报价变更核对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_db15737bc1564c8098f2232e769b35ed",
+      "t": "样本转运规程比对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_28e6c198ff2f4896b3a08bc53d8c9b83",
+      "t": "菜单过敏原核对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8658b0a83d5743f7bd54331e84de7c57",
+      "t": "图书版权到期核对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7ca4faca48e64160aba98c3b64b80503",
+      "t": "公益支出凭证条款比对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_28b5fa2a29034c9aa4a862e25495057c",
+      "t": "电机噪声测值条款比对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bcf1f439a8b44531840ef9a42a8b1bba",
+      "t": "论文图表复现要素比对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9cf169c98ebf4875b9064d56c4a1fe67",
+      "t": "碰个头",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_361411a334594a86bc1ce7cfff8e4c8a",
+      "t": "等花开",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_30c21d8ee3804fdba6a887fe94358ab0",
+      "t": "片场便笺",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ed354476d88f4c7d9eea83e222962a54",
+      "t": "开饭了",
+      "tr": "VIBE_PAY",
+      "v": 7,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f49b1566f5b343a38f6eb878d60f7c1d",
+      "t": "票捷——发票批量识别工作台",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fc6aa9c32a3b44c2b402711a81a6fd1d",
+      "t": "招标条款废标检查",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1bd47a1672b240a4b60c6a203e2f44e8",
+      "t": "进口食品标签核对",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b8f61716571348389da6778fcf1453b0",
+      "t": "英语作文批改",
+      "tr": "VIBE_PAY",
+      "v": 18,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_25e0a92ad48d48b4a68152849b059fc8",
+      "t": "宇宙第一工作台",
+      "tr": "VIBE_PAY",
+      "v": 32,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7c3e013d02294b6eab06e9c57fd04d85",
+      "t": "付费订阅・影视短剧 Skill 全家桶",
+      "tr": "SKILL_PAY",
+      "v": 31,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1f963132221141bfae2ac40d69e9a245",
+      "t": "高中智能学习与升学规划平台",
+      "tr": "VIBE_PAY",
+      "v": 23,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6fbef641837b452c8a01f5cde787b1c5",
+      "t": "给我一打发票，还你一份台账",
+      "tr": "MACHINE_PAY",
+      "v": 23,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e488bf21db4448229a9ca3bfc652f5f2",
+      "t": "AI轻疗愈配伴",
+      "tr": "VIBE_PAY",
+      "v": 21,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_70426ba2103f4c7487b1377513067398",
+      "t": "数字人口播片 · 选题到成片",
+      "tr": "SKILL_PAY",
+      "v": 20,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ab9c8297180e418bbd635ab2a367dfb9",
+      "t": "BOM Pilot · 硬件采购智能体",
+      "tr": "AGENT_PAY",
+      "v": 23,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6b4013c531834b01ab7fdff690de91b5",
+      "t": "NOVARULE",
+      "tr": "TOKEN_PAY",
+      "v": 5,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_48d64e5286024722a133d43e57295579",
+      "t": "MemPort 忆港",
+      "tr": "VIBE_PAY",
+      "v": 25,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_184ca2d57dbc41c48e750ff65fdc63b1",
+      "t": "AI 时代职业健康中心",
+      "tr": "VIBE_PAY",
+      "v": 19,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7d34ed0fbbaa4b69ac6fae0a97c48707",
+      "t": "像素说唱 MV 生成器",
+      "tr": "SKILL_PAY",
+      "v": 34,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5485669c65934e978e6f2187ada16c24",
+      "t": "格物平台",
+      "tr": "VIBE_PAY",
+      "v": 36,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6b376a3d702a4bfa8a881b8f2c1ef02c",
+      "t": "收款页生成器 —小商家的 AI 营业员",
+      "tr": "VIBE_PAY",
+      "v": 30,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_43d35d004f1f48cea0a3fd5d2c1fb4b1",
+      "t": "宠物寄养夜班交接",
+      "tr": "VIBE_PAY",
+      "v": 21,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2df23b2386634310a4649d948edf9a8c",
+      "t": "婚宴座次重排",
+      "tr": "VIBE_PAY",
+      "v": 27,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5817789ef0994f32a98aded81cfee548",
+      "t": "棚拍灯位测算",
+      "tr": "VIBE_PAY",
+      "v": 7,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_864f0e6ad8604ec7870925cc3f78134b",
+      "t": "菜场预制菜明示牌检查",
+      "tr": "VIBE_PAY",
+      "v": 16,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d8c98ca4affa4037bf1bd89b23ffd1ed",
+      "t": "工地样板验收判定",
+      "tr": "VIBE_PAY",
+      "v": 6,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_cf829f29cba94c18b8819d4fefd3fcd6",
+      "t": "民宿客房补货清单",
+      "tr": "VIBE_PAY",
+      "v": 7,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c53683e6107a4227bbbb76776627ba40",
+      "t": "展会撤场排期",
+      "tr": "VIBE_PAY",
+      "v": 4,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_329c093dd54946ca84cb6d399f5ff82d",
+      "t": "代购·发版一致性核验",
+      "tr": "AGENT_PAY",
+      "v": 6,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_605bc2b08a4a409fb27a5d46924f2538",
+      "t": "代购·点表生成",
+      "tr": "AGENT_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6a5bc4d2af3743bf92ee2971f22bade3",
+      "t": "代购·退信批量归因",
+      "tr": "AGENT_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2578dc001105446e8daed1c3f0567b38",
+      "t": "代购·提示词升级",
+      "tr": "AGENT_PAY",
+      "v": 5,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c0a7f69057da412390948da8fb9a9971",
+      "t": "代购·内容骨架三形态",
+      "tr": "AGENT_PAY",
+      "v": 4,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_50888ebd10804121bdb4c676ae7f4d42",
+      "t": "冷链到货验收判定",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_332773956de6405c96440e9a84326eae",
+      "t": "代购·知识库条目体检",
+      "tr": "AGENT_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8fe98dbac1584a7fb5b27630a117c264",
+      "t": "代购·HMI 适配核算",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8dff626a4e7549df9fc66748a95bb0ab",
+      "t": "代购·PLC 代码审查",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_302866185a34442c8111b812392d2c84",
+      "t": "代购·站点体检含复检",
+      "tr": "AGENT_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ec39efbd87294d4a8b2531e858455802",
+      "t": "代购·邮件体检含复检",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_0ff518cb0d2c42518b3d3654631f2ecf",
+      "t": "全站体检团队席",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9d8e5d333f8d4e0ab6c430c239a6997b",
+      "t": "内容工厂月卡",
+      "tr": "TOKEN_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1478770eb1c94869a190c45ff53afb5c",
+      "t": "点表与上云年包",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a029a1f2983e4accaecb436728936a05",
+      "t": "PLC 审查季卡",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_71c3e5a9c9774ed8963ef6508c7b29a0",
+      "t": "提示词工坊月卡",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d14f27c2f8fd4ec8a136fbf0cfd45b19",
+      "t": "知识库产线月卡",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_dcc13efea3d643fcaa68a71368e1f2ef",
+      "t": "技能席位包 5 席",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_134666c78bf847478fcdc258e9cb6378",
+      "t": "PLC 审查月卡",
+      "tr": "TOKEN_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_193c1ecc04bd430895b32298344a0606",
+      "t": "邮件健康月卡",
+      "tr": "TOKEN_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5d043469f6b245e0b72acb854eaf5e3b",
+      "t": "站点守夜人月卡",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_cc0272789ad44303be3243bc210d8056",
+      "t": "点表 CSV 清洗",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d0a49c7f4d7d4b088f0a8c3fdd7b7b48",
+      "t": "Cron 触发时间推算",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9e0562a543db4625a74ac721a69e9dde",
+      "t": "网段与同网段判断",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_876f001458564ac28483002a5358bab3",
+      "t": "Modbus 帧 CRC 校验",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_da5842b48c35441aafb93df850c14a56",
+      "t": "ST 代码静态检查",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7583a2cc133c402b9e73d4871f7caa03",
+      "t": "知识库质量门接口",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_adb59a8ed3b142d59504a9714760bfc2",
+      "t": "内容骨架接口",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4ae7530785a14f048d1d84b513ecf392",
+      "t": "提示词分诊接口",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7c2d349ef89641b4bcafecda78832c82",
+      "t": "一句话转结构化提示词",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5adb4f6be6464fd2a27b9a17edf5b668",
+      "t": "HMI 多语言宽度预算",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_dd69e636deed48b5b1727854dac492f6",
+      "t": "内容锻造器",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_38465da69cf24bed9a1c614b1b6924c1",
+      "t": "提示词扩写器",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6fbc577779924ec29b3a13d112d40500",
+      "t": "提示词门诊",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b6b5a95fa8f0436181292b9b44e7f962",
+      "t": "提示词契约体检",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2257dccdf56740399395face53983e9f",
+      "t": "垂直知识库生产线",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_86a56eb6be214368b8597576b8d01158",
+      "t": "Android 命令行发版",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_302c8bcdd65845f397cddc93b255c348",
+      "t": "磁盘目录安全搬迁",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_752e44ba394140afb6253016f4990e7e",
+      "t": "技能货架",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d46537c01637441e952cf37c9dce366a",
+      "t": "点表助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d036a3b9888f420db333198e6026aba4",
+      "t": "HMI 文本膨胀检查器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_13a43ac572164d65af1544d0421485fc",
+      "t": "50 个工控提示词模板",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c0a0bf2324894b40a9aec93c79afaae0",
+      "t": "行业知识库落地页",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_291bf4fef3ec43a7949185396716be7a",
+      "t": "病历式提示词生成器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_33850ea69f494c67b82b07b1ebf66b5c",
+      "t": "一句话变完整提示词",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4082924260254c52ab77a06dd2a4dd65",
+      "t": "三 Tab 创作者版",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4ec9639c09b340659b0c5ab411a1e7f0",
+      "t": "云霓收银台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6521bdf44ac249fda77598c17b1e017f",
+      "t": "C 盘空间只读体检",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c49bd6c2f1b94e00b854e7c2c64cf729",
+      "t": "站点上线与四层归因",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3ba60a4212fa4a93be71ea9af892c343",
+      "t": "邮件送达率六层体检",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1ef908de4f9e400ca11be57284517855",
+      "t": "代码审译工场",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8ec078a1e72a455aabfb0499d96291d6",
+      "t": "网文维权助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6dc0603497f443d6873497674c55aec0",
+      "t": "Muse",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fc663a76918648b99797857b81a7f15b",
+      "t": "AI Linkus｜灵感影像创作台",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3553bdfbbade4a8681c0ad596c4ba890",
+      "t": "SEO内容优化助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_dff118cffcfa417cbc1da9f7a796d0ed",
+      "t": "期末刷题站",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9abe4a974f6945e589b2a0ccf707c83c",
+      "t": "赛博数据报告｜深蓝交互HTML生成器",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_01162b0572df4014a8003d2e44a90978",
+      "t": "家事法律信析（LexDomus）",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e78225a94c7a45f48b4b1f4b96e45787",
+      "t": "心愿GOGOGO",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8518d881aee247c8afe2f794fed91dd2",
+      "t": "商业数据分析",
+      "tr": "VIBE_PAY",
+      "v": 4,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_0fd2483f2fe44a93b4f40049af85573d",
+      "t": "感受解析 · 一句话到美术风格",
+      "tr": "MACHINE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8c6bd44100304678957c74bb8393c36a",
+      "t": "吉日规划师-选日子不求人",
+      "tr": "SKILL_PAY",
+      "v": 62,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2e5acad5e9584c1ba241eab03e68f7d8",
+      "t": "神鱼AI创作工具",
+      "tr": "VIBE_PAY",
+      "v": 21,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e8b73b5ea14842a099a4ecf5d75c111b",
+      "t": "数据库迁移陪跑",
+      "tr": "SKILL_PAY",
+      "v": 10,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ebf037c369c8470ab7e74dfe37c9c882",
+      "t": "客服回归实验室",
+      "tr": "SKILL_PAY",
+      "v": 10,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_378fc38250e1458db1c43a7ab1f8cc61",
+      "t": "试验裁判",
+      "tr": "SKILL_PAY",
+      "v": 10,
+      "l": 1,
+      "c": 0
+    },
+    {
+      "id": "HKWI_af7b5167d78546a8845659e276683487",
+      "t": "指标契约师",
+      "tr": "SKILL_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5a2d14633f964607b63d2dcdfa40a914",
+      "t": "售前沙盘",
+      "tr": "SKILL_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b7aa9aa007c9401cb7e93d0b5f90a768",
+      "t": "回款争议核账",
+      "tr": "SKILL_PAY",
+      "v": 13,
+      "l": 1,
+      "c": 1
+    },
+    {
+      "id": "HKWI_7aa861305f504343957ea273c08e8585",
+      "t": "补货推演台",
+      "tr": "SKILL_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_49ff3ea2c5d24964a9fb6fa9c504f6af",
+      "t": "客诉结案官",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9158e8828546492985da616c91d007d4",
+      "t": "标书应答教练",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3b3c54f6fa004058959089a695ade19a",
+      "t": "引证工位",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8f27a43959774f6caff52a4b8382d36c",
+      "t": "Joy 学数学",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3f4f5b8582c04270a00b1d1715496f52",
+      "t": "网上订饭系统",
+      "tr": "VIBE_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6a93b66db26a47f3aad77f71d41c9bc5",
+      "t": "公厕雷达",
+      "tr": "TOKEN_PAY",
+      "v": 4,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2cfb8e86d7c548bb80ee81439ba0ccbf",
+      "t": "口袋花园pocketgarden",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f0e27ad5758e42e98eba4524076ab017",
+      "t": "AI口语轻松说",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f4ffd9d3dd91481d9d81462636e9e8e2",
+      "t": "爱迪特博 PPT",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bca457ff80584987bd4fa103c166b422",
+      "t": "FlowIn恣优：自由职业项目对接平台",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bcf808797e7143f0906158a1d0e2e69a",
+      "t": "片语成书",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a3eb4d0334bd468ca28c4a348705a305",
+      "t": "三体游戏",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8f111fb75bc64e4a842b562f6875827c",
+      "t": "学习通11111",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1b65a1d51aee45e798f5d1c13c3d1e78",
+      "t": "课件应用",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3900458264bd4999930d10f52fd25743",
+      "t": "它的星球",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bb0f011978f146eea481455b0ad10f8c",
+      "t": "护肤成分排查专家",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f6ee2e91b40c45168bfa901bf4d6de78",
+      "t": "宝宝辅食搭配顾问",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5a364eaaa04845c686669257caf65e63",
+      "t": "职场汇报文档过滤器",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 1,
+      "c": 0
+    },
+    {
+      "id": "HKWI_24689a78a5e24f95a1a0863c99f39faa",
+      "t": "原创歌曲已发行平台",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_dc48bbab78624eb7a2ee5c081dc1b9a1",
+      "t": "晴星宇宙",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_56214231417a498b84439bf8f9673d55",
+      "t": "工商业务智能引导——企业办事不用跑",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f5c1ebbb5d154ce287d93d54f77d0dc8",
+      "t": "赛博六爻",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d068e121da7943b999734bf1da85c804",
+      "t": "储能测算—AI驱储能项目收益测算与决策",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8ad947dc7d524e10b01a6add2fd934be",
+      "t": "研报侠·AI投资研报生成器",
+      "tr": "SKILL_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_176a0bdf4f8946f089082f1c47c72fd4",
+      "t": "儿女亲伴养老陪伴app",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bfdbcc71d7704b899252a10e01790ea6",
+      "t": "一法通AI",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_866b2495ba8c408091864013ad6dd36e",
+      "t": "机器人专属AI插画生成器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4bfc3caf2cb040629b87c8c3c612ead1",
+      "t": "Ai深度复盘",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2ad8bcd694cd42d286cd667172a04040",
+      "t": "知音",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_982d5db12a3c4e15a0c10e098b36b093",
+      "t": "𐙚𝑪𝒏𝒔𓏲𑁘𝑽𝒊𝒓𐙚˙ ⋆",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_edd23086c05d46f48fc966e8d6549862",
+      "t": "Fusion API：智能体成果商店",
+      "tr": "MACHINE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f4ef66310129455ebd4e9fd4cec04d2d",
+      "t": "人才盘点",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7515e626ac2c4344b954db5bb901fa58",
+      "t": "技能更新优化器",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_53712460be6c4f7dba95788ad97f9e14",
+      "t": "销售跟进客户话术",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4d1d32a0442e419aaca876e5911f26ab",
+      "t": "KA大客户销售专家",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_57bef17a6cdb4e71b2c1ed9900e8b303",
+      "t": "私域销售专家",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bfebd1a782a049a1aa84bc557a431e18",
+      "t": "AINav —— AI 加持的浏览器书签",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_331c1001e928463da672f879d95c1450",
+      "t": "drop",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9fcd0969a9414d3d9ee045441d717bda",
+      "t": "发票批量识别与结构化助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7ca07f86e1244f8bad5eebe7cc3dace7",
+      "t": "装修超人",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b7df66887fa8441fb2f577e7cce1c9a8",
+      "t": "research-ppt-skill",
+      "tr": "SKILL_PAY",
+      "v": 9,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9ae7678829ec43d5947db9c3ad1c1b88",
+      "t": "无",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5595c09defb14cc49789b338b95fd960",
+      "t": "灵感小摊",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_860739916a984cc8a233d44a932143af",
+      "t": "答题翻卡对战",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8954cdc33269498cbde0aeb83659153a",
+      "t": "ypphub，实时字幕翻译视频播放app",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fc035b89a6a4492e90e7db9fc6de6b8b",
+      "t": "墨生考研",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bb1c1250b8074e94b3bfe58f93402557",
+      "t": "解忧树洞AI信件馆",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_69cf0254aced4dd69586544451c9a39d",
+      "t": "CiteProof 引用核验收据",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7bd3dc6234fb4882b18049fc598b92b3",
+      "t": "本地发票 OCR 财务抽取引擎",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fabb499631d34c0b82135b8ff82e8bd7",
+      "t": "物业服务纠纷速核工具（收费版）",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_860bb7d0916c4468833a1d4809e1cc71",
+      "t": "成长星",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_13ce87e8caa94d4895ff1ac666b9137c",
+      "t": "云履简历",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7cb8ec7b38b04723bd830a73bc2b7dfa",
+      "t": "元棋",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_12fe913b3df2435fbf5f9317e58592b1",
+      "t": "经营决策沙盘skill",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5656ec72d9184c66ac42fa47d49b1a6e",
+      "t": "技能锻造大师",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_284a244ac3534b639e48bab169cae1cc",
+      "t": "Skill值得装吗？",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6bb579eb281f44a0bcc41d0aa841a205",
+      "t": "LumeShare",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fa6b2d2d58ca43aca10c284c234f9e2d",
+      "t": "AI 面试工坊 · OfferCraft",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e8cd0a8c33ab4911805ff7f7016e4653",
+      "t": "AI解梦馆DreamWhisper",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b6877d2825364a64a49f10b98f08cf8f",
+      "t": "吃啥",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_87c46cbb4cfe45e0ac5a3756af135631",
+      "t": "十一创｜AI 网页一键部署与分享平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8877d611bfeb4c42b21d9e27fa995d69",
+      "t": "拆表｜可追溯的财报解读Skill",
+      "tr": "SKILL_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b54faa681ad749d1ae69bc03b6df753b",
+      "t": "AI智能",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ba84766cc7df484ea30442ce14904ea1",
+      "t": "创意验证Skill",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2798ac2b490a4eed8b397bf582b7eec4",
+      "t": "Drinkinn AI",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4723de6ab25e44afa56c62249475eccf",
+      "t": "中国异闻收录局",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3e3ea60177d545bdb83586b94cc0eb71",
+      "t": "觅码项目通",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e3d34e64e7e2412f922f3d80bd51e8e5",
+      "t": "石材智联",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6d90e500713a460d98eb60f6a3c7aa1a",
+      "t": "迪赞设计：小店主的 AI 设计台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8ac910ce5f3040afa5d54a2d29ef83ff",
+      "t": "网络变现攻略站",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6684e8391d46483a87fe77da7a334f8f",
+      "t": "narracore_叙事核心",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4400822635c44cf58a8514715aa81150",
+      "t": "合同体检官 · AI 合同风险体检与改写",
+      "tr": "VIBE_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_09d85ca6de07415487ef6a2559f93cf3",
+      "t": "家庭临期物资轮换规划助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e03530589c7648ab92319f4123cbc39a",
+      "t": "AI版式灵感生成器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ac5aef3319fc48cb9e40391c6eb9aba7",
+      "t": "家庭稳健资产配置测算助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c6ec4ae7e8b546c58099e63f916e8a63",
+      "t": "诉讼管理系统",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_95f251ab939447f391c4bc7c955be5ab",
+      "t": "privacy desensitizer",
+      "tr": "SKILL_PAY",
+      "v": 21,
+      "l": 1,
+      "c": 2
+    },
+    {
+      "id": "HKWI_b14a7de8b2214b8088941f4da3a92e89",
+      "t": "画语小精灵",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_91385196ab6944e1a4f0a20699397b3d",
+      "t": "影视剧合同一键审查",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6da6b8e7550c4fd5be3d9f1b8e60189d",
+      "t": "贪吃蛇大作战",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_930cb1b5fee5452283bd4a9e5097bc9a",
+      "t": "MP3英语播放器",
+      "tr": "VIBE_PAY",
+      "v": 57,
+      "l": 7,
+      "c": 7
+    },
+    {
+      "id": "HKWI_49f471e3c83d4ab79d8fba8dfd7ffd37",
+      "t": "便民养老陪护AI支付助手",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_dd90c4de1ff44d9a9fbdd64710f2c3a2",
+      "t": "天龙AI写小说",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_31c13ce8f59e4e9b98f68dece5576124",
+      "t": "ai-draw提示词自动化工程",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9bc750d92715405d8b31dc05400ee65d",
+      "t": "控程 · PLC 程序生成与静态审查",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_cef8fe65b7da43be98531ddc73c51380",
+      "t": "十万个智能体态度，帮你选择大众偏好",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_84c99a4454144a658686d1effe17f36d",
+      "t": "拟人化智能体引擎",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e3af10d237e946e7a0bf756dd009bec6",
+      "t": "家庭闲置旧物AI处置估值助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ecf1bc02b2b54b1ca0a43defb4f7c7be",
+      "t": "视频高度反推提示词",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_596d319c79a748f79125a87aef63231b",
+      "t": "企业融资决策系统",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ca5369d32c5a41f29a6c4a31b473e243",
+      "t": "面霸复盘",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_92411a87da2046f98570a9bb25a0e73a",
+      "t": "行测AI陪练",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d1d3b647d81e45a798aa6756230b2535",
+      "t": "清文",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fcbe0de8a18b4e408a04a4cb728bdb72",
+      "t": "AI 漫剧流程skills",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b1f2a8e6503345a2aef2adfcdb81f6fc",
+      "t": "南天门计划。",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_74c79bec6f8c46928747bac9fda4c958",
+      "t": "未来实时音视频互动",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4d995cf075f145b8ac7832de2ed2e409",
+      "t": "XRVERSE虚拟现实游戏社区平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bbb7ccc17e09433ba20dfdb1084ab937",
+      "t": "织屿星・OC 宣传卡生成器",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8d36a4fa425f4af9aac3b9ec9123ff72",
+      "t": "宠物症状自查助手",
+      "tr": "SKILL_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_751569fb61484ddebaefc53097bef1f9",
+      "t": "时间旅人文艺·活字计划·大众文学众筹出版",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_0da1802f63c348288ba88972abd7cc11",
+      "t": "会养",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_069a1856a52e4b6fbe75833109a71beb",
+      "t": "织屿星：OC与世界观创作者社区平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_520310bf2f324875ab7dcea1a3f319e9",
+      "t": "拾级 Gradus",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_57abc50af0354091b2df1a776a5c92d2",
+      "t": "AI相亲定位",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_58fd0a43c71745928c877ec3eb032b77",
+      "t": "英语世界",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_cb833662421f481ab5678a860890f609",
+      "t": "你是会送礼的",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f55f37c84bfa44e0bd2958666ba33e83",
+      "t": "冲动消费智能拦截",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_baa0b5f8807941b684138e44a91a47fa",
+      "t": "英语恋单词",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_20a25727156e4ef4aae859cee913c00f",
+      "t": "众援",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3e264956e1fe49f2839e572aba1aec4f",
+      "t": "用户洞察全链路 VOC Skill",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9f73266d9419469abf61f722aded8115",
+      "t": "SignFastAi",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9c99f8a7cf9a4e658d951b86d88f4f4f",
+      "t": "文本合规检测",
+      "tr": "SKILL_PAY",
+      "v": 24,
+      "l": 1,
+      "c": 2
+    },
+    {
+      "id": "HKWI_cbb8079a4c5446aaade324325ed41b05",
+      "t": "器件图谱",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c7e957822d454afeb68276d952e0b9c5",
+      "t": "一人公司 AI 员工合集",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_398a3c43c8c04116a3627bc87b9020e4",
+      "t": "生信分析助手",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f35351a68f884e4eb76451c138515997",
+      "t": "画映·AI画布视频制作专家",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d01203fecdd04483b06c0a3729266984",
+      "t": "老笔杆·公文写作专家",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_807b0e75636c42aeb5d9e8360a0a99f4",
+      "t": "阅衡·申论批改专家",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7916773dde504799ac6527f6de4de110",
+      "t": "《行账 · HikeTally》",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f217c7f477be4831b089dd79b88fc573",
+      "t": "笔笔记",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a48f27dbd97a459c93153a62cd0294b8",
+      "t": "心绪 · 情绪记录与深度梳理",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a04f0d97fc1941b3bd9d61f8796d19c4",
+      "t": "心苗 · 亲子沟通与养育梳理",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fb0fd124e023441aa7fa18b7919596d7",
+      "t": "啊",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8213f2c6c31b45029e2023fe53e2441d",
+      "t": "心桥 · 亲密关系与情感咨询",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_06e03934a4724ca7b1ecccb444a7f054",
+      "t": "Tuoda AI",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_aa2a3c1b8b944cef9c7825f9b5d2bcb0",
+      "t": "AIways",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_be1759a81e9d48eda5a64de74876ff69",
+      "t": "咯了咯哒",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e73d8584c36d4f7590c0731efcb6466c",
+      "t": "简易 OC 宣传卡牌生成器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_148174d58a424037a2c0bdfe3dd6f15a",
+      "t": "My IELTS AI英语学习助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a6fbfcc515694100a626719efbe2c183",
+      "t": "模型架构优化",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bb141a4feefc4a5facd9032d847a9189",
+      "t": "cswbisheng",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_844a6fbab41d4dae81d1cf4b248a8403",
+      "t": "大肥鱼:让 AI 自己付钱",
+      "tr": "AGENT_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5f71273d8e584bfca157977715eb92af",
+      "t": "聊吧。",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_86eee06a45c946f69ed8de64d7c81eae",
+      "t": "Gaoneng浏览器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_35d23d7f39d944d2a6b0ebce16851743",
+      "t": "声、光、电、视、讯产业生态平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_669ca6dba37e42c1b6c839d4c05464b5",
+      "t": "罗家通书运势推算",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_025056dce4a34f479eb1f00e4bd5121b",
+      "t": "AI反诈以及自动整理账单AI助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_56e2966c59a447a6bc2854b7bc7f9df5",
+      "t": "DealPilot AI智能接单助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_63afba365a59481e92610bdc7224a3ae",
+      "t": "课堂助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d6c2cd54b44e46f78d69a2eaa7b3792c",
+      "t": "修仙打怪升级",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ca1150ab2dc6499aa8385816af4209da",
+      "t": "造化世界",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f82a93c1a52245aca43fed970bc36ec5",
+      "t": "中学物理电学实验操作室",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b7f4f312753a4e6892bf44c1d53e6ee3",
+      "t": "企业及个人的政府项目查询AI助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_94ddb16e44e14c859749b7ffbf94a98d",
+      "t": "星芒云 · 会为智能体买单的支付体系",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_679ebcd148bc490782275f0f78a858c8",
+      "t": "笔映AI——智能图文创作平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_21baa44509414bf0a8588dfc9e301f7a",
+      "t": "幸福亲子关系AI助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6bb9fbf42c154ca7acd11c6d2092af8c",
+      "t": "AI法律大白话助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f4585ee9c5a14bab90dd4ad4fb4ae6d9",
+      "t": "小小钱财规划家",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_42f270fabd494d398880f3b5319bc4f3",
+      "t": "论文写作助手｜摘要+图注+引用核验",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5f0bab7a005f4856a23a92d60d5b82bb",
+      "t": "AI音乐创作",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_af80c519964b456592c32503d8dd31cc",
+      "t": "星向俱乐部",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_cb4ac9cd684a40f2b8ab6cbee917b608",
+      "t": "Agent支付网关·开发者工具",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_45ba2ae2f9de43b4afc2f763f3cad12e",
+      "t": "小红书文案助手·订阅制",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_942a7e94e51d4c1ebb27fd09489ae7fa",
+      "t": "AI简历优化桌面版·按次付费",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_cb952ef2bdb340b9be4df4d1b9b4cc3b",
+      "t": "设备维修知识库问答·按次付费",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7f959f68adbc40ef83e2903aa3d60456",
+      "t": "AI工单自动生成器·按次付费",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6027de6badd84732843ca0705475dcbd",
+      "t": "工业数据采集监控台·订阅制",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2babfc6f6bfb47c399c107b3796be6f1",
+      "t": "PLC程序注释生成器·按次付费",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8930de64004a463a8a849f16391e49b4",
+      "t": "SkillHub工控诊断Pro·付费技能",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b64620606da44e08a6d925d7a41d60f3",
+      "t": "克劳德桌面版·数码世界AI助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_26111b2fc34f47ab801f463e1ac6bb8e",
+      "t": "缠论K线结构识别",
+      "tr": "TOKEN_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_01d0a008792644efac6a68679bc4cc8f",
+      "t": "巡检机器人耗材自动补给·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e5f99ba103c048109f83bd6fb18da61c",
+      "t": "质检异常自动购买复检方案·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7f9d23f42f0c4ea5aff61a760fd3b28d",
+      "t": "产线换型自动购买程序调优·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d8e4dac23e194881a8297b35201dd449",
+      "t": "备件寿命到期自动比价采购·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e8c729a3c1564c26bfad309cbc1ec4aa",
+      "t": "能耗超标自动购买节能方案·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bb05ef6a8db449f38e789a58e2c69ebf",
+      "t": "预测性维护自动预约工程师·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_63bb2e1954144957b471510c797b462d",
+      "t": "耗材库存告警自动采购·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_94d49333dd864716b9abf09377aa4103",
+      "t": "工业设备故障自动维修·按量付费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b01d511d912c4c6798abee2ea1f4ed7e",
+      "t": "上秤",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6b3791b7d2d6471f8bccd555bc3ab204",
+      "t": "表对了｜两张Excel按列匹配同步",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_42794f3505cf4276811373b8427239d1",
+      "t": "拾光伴伴",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_38b6d30f9b05472a8c1da6079c4ab964",
+      "t": "央联阳光采购数字化平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ddad10d3f41d4d4d8010b2c03e302a08",
+      "t": "固件工坊:编译即交付的嵌入式Skill",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_201264d9a47d48fa9cb9f4ffc7875a3b",
+      "t": "MOSAIC 拼造智能硬件方案平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d86495c79fa7471c936e729df1c27b71",
+      "t": "DeepVid 知影",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6282d8ae71834a9f84bd2bebde896822",
+      "t": "攀岩记-Climbing",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b4bd9f0c5b5541f2982e6f508077b4e5",
+      "t": "水沸腾实验",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bd64f823601845b58b80b197af7cf481",
+      "t": "昊编程社区",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6418eb3903364ce9a771bce72c2049f4",
+      "t": "昊编程师生家庭图书积分管理软件",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d10d5bf31566403aa965a41c66876fc5",
+      "t": "产品DEMO上线工具包",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a2cc8597623c4f70a0ed7110e5dcd295",
+      "t": "自媒体拟人批量发布",
+      "tr": "SKILL_PAY",
+      "v": 8,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_86be002c97a64ce5b6a9d124b2aee57a",
+      "t": "Agent 环境护栏",
+      "tr": "SKILL_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_eba6466832b14968a99bf0167ae12f3a",
+      "t": "云书写作",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e55aab59807d4f19a0b135a7c0241aa6",
+      "t": "AI实习导航·大学生岗位匹配求职助手",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c197edd1afca45d8b8a5e3cd0c4f62b0",
+      "t": "idea-to-software",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_42d031dc52124677b3d4534afedf7999",
+      "t": "量化口径工具箱",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fb87592f744b459baede0f34d401cc1d",
+      "t": "量化策略审计",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_221f8161a13c4e839ac6a8590b6e3199",
+      "t": "多平台内容分发",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8fc79c8db6084ee9b018dd4b2857d987",
+      "t": "前端与跨端加固",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4a13abf5c7f44c4291d20c958d4a2d6f",
+      "t": "秒办智能办公助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fc8b5fc909ed4537ad9733c09674a667",
+      "t": "知了爱学--k12一站式自助学习平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a243be1d5791437896796b7252afa3f1",
+      "t": "AI Agent托管的全流程雇佣支付协议",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_26c1ec1e4ad14fbfab826f4c210b3674",
+      "t": "HTTP 402机器间支付的人才匹配协议",
+      "tr": "MACHINE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5d550b5f350a4518af28d86f32dd5129",
+      "t": "技能按次付费的AI匹配协议",
+      "tr": "SKILL_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_711d2a2f1a7942429939fd663df902ff",
+      "t": "自由职业者交付即到账协议",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3e594060a33f49078597a3a8c310e4e7",
+      "t": "XiaoYu快递助手",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7698e3da16af4e74924d64ec713b8df6",
+      "t": "昊编程（老版）",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c3cc6ea59abb47678e0d112f688b9205",
+      "t": "团子打卡",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fc0ff91b808941259c47f26d579408ce",
+      "t": "昊编程闪电",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_63c3218a73b040acac2c2e44fa048b84",
+      "t": "智能体应用社区",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a1d147675ce844c5b137558876266726",
+      "t": "考勤小程序",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_58bbdeffd6894247b64c6750344378a4",
+      "t": "topup-pilot",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_99c8638e418d4343aed1af1c6429ccf3",
+      "t": "product-3d-kit",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6cacff536aec46d9946f738e2d25feae",
+      "t": "星途｜爱豆人生模拟器",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c212593b4b244aae833a1bdb372a8ded",
+      "t": "票迹|数字纪念票生成应用",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_92f1bb9e2cde4657b218138b83519602",
+      "t": "素造｜多模态素材生成管理网站",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6d5408e1aa624a6591a761c32f702f6a",
+      "t": "投研助手",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_93e9fa2eaf6f4f83b6c50e8d6a5ee203",
+      "t": "E Scout——地球科学智能查询AI",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4bcea94e616f4ac9abd6efb2be2e4406",
+      "t": "Excel/表格自动化",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e13de91ccb76473495d5c3a29de00e70",
+      "t": "Offer 工坊",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7ae6d1531f9446c394fb0ec619ef2032",
+      "t": "贝贝人情簿",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9e52c763e3cb4d24a45fe05aea841d6e",
+      "t": "ai漫剧人物设计",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8a9b4130b4784a1c8fa6e8c9003864b6",
+      "t": "喵喵理理我",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5871086ea5b441cc8ee64e81b696c0cb",
+      "t": "德阳潮扇",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2219af596fab41eebd8e96af2bf788fb",
+      "t": "movoAI影像生成平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a130734d61684de9a9c9b9a293795dbe",
+      "t": "UsagePay可核验 AI 用量结算",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_edd43fa001cb485c90baa8acf4d825b2",
+      "t": "企业碰一下会员通，让企业更多客户",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f233134b52a3423c989f6120d1578d42",
+      "t": "企业经营军师",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_43eeeb44ab8e4ad292b7691d851cff46",
+      "t": "civexplorer",
+      "tr": "SKILL_PAY",
+      "v": 10,
+      "l": 1,
+      "c": 1
+    },
+    {
+      "id": "HKWI_1aa7d7e5be764aa6934f232ddf8625f4",
+      "t": "上海",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3a9b48d34b0241b695eb37ca817548d7",
+      "t": "NarraFork",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1f4702897f7a4aeb82a655e55e3add59",
+      "t": "英语听写大师软件",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_72620f9b5e2c47b6986584a3b2057a4b",
+      "t": "掌勺-视频菜谱转图文与下厨规划",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ac6137fa7b6d42fdb7912a00d110618c",
+      "t": "星语 · AI运势顾问",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ec934ef7183a4fc7a76326c40b342e67",
+      "t": "采购决策分析助手",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8a1e73b4833d4ae68feb11563b305fc1",
+      "t": "碰一碰，企业防被罚",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_91bb3b72e80d4255a8f0e51e86a3702c",
+      "t": "devtrace",
+      "tr": "SKILL_PAY",
+      "v": 12,
+      "l": 1,
+      "c": 2
+    },
+    {
+      "id": "HKWI_e631d7b6819c42c5b64f690b1c2d261f",
+      "t": "ai-code-security",
+      "tr": "SKILL_PAY",
+      "v": 14,
+      "l": 1,
+      "c": 2
+    },
+    {
+      "id": "HKWI_36b443cc78724c3fb6864649463aed9a",
+      "t": "AI 小游戏创作与分享平台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f525073e35054d48bdc6adc02232fcc6",
+      "t": "爆款小红书笔记创作助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_034bfd30001a426e8793193e464a2430",
+      "t": "碰一下查应急金，以及官方赚钱副业引导",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4ba89b33ae5e4da9bd0be12e2fb7055f",
+      "t": "碰一下自动整理账单，规划存钱",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9548dd810d9c423c8abecaed9d0e1456",
+      "t": "A股/H股全维度分析工具",
+      "tr": "SKILL_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_be7f3375e3074082ba39c4459505fc7f",
+      "t": "论文skill",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_98fec303a1be4f7492836a4c4e4c66ff",
+      "t": "出海圈信息社区平台",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1f6bb28d3d094a6c96c3de4f961e1a15",
+      "t": "智能硬件采购业务助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_99002657bef84db7a928a9f586db2cd2",
+      "t": "供应商资料管理预警助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_bc42f7ff6510468db91fb79a0dd9e9d8",
+      "t": "智能硬件产品经理立项评估助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_48b3a62e5d7541ea9ee0583c3f6e7497",
+      "t": "AI Agent技能健康管理工具",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e2eac422b2e94347af17d83e413ff7a4",
+      "t": "注塑模具比价助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_00136f9d8fb1464f89288f0f49a1725d",
+      "t": "硬件SMT BOM上机整理助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_57b1421812084c91b00434e48831a913",
+      "t": "智能硬件开发专家团",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f2765507b720490da4a6f07db8452dd8",
+      "t": "硬件PRD拆解助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_eda6d7db07a34a9a953c8cb3c22f8ed1",
+      "t": "硬件项目排期助手",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_6951d2a3d00c4325af7215905c7e0b75",
+      "t": "硬件BOM整理助手",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5a12efa0040f446f86d587a9e9dcc729",
+      "t": "暧昧模拟器",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2b146584314c4d999cc00b54355bcf8d",
+      "t": "生活SOP",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7f442e58dbcd43688b934346f1fff7db",
+      "t": "handassist",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ce85be3f7a924b6a9490844f3872c7be",
+      "t": "解图识物",
+      "tr": "VIBE_PAY",
+      "v": 11,
+      "l": 0,
+      "c": 2
+    },
+    {
+      "id": "HKWI_91a5ba09cdb64097afc7e730bea710b7",
+      "t": "一个去中心化人才匹配协议",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e3e44f2c1008484c8f325ed0dcc9f4b0",
+      "t": "知渡-恋爱决策助手",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_32dfd06744db45d68581e4cf2aec6e32",
+      "t": "博势数据",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_63a6b8e4668d4d168af81e87c7db6010",
+      "t": "A股量化策略交付工作台",
+      "tr": "SKILL_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c2b1a2edfb2b453d87da0b19476cb7a9",
+      "t": "test2",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8d9db0706e174154b1d6de45a4009d77",
+      "t": "专业文献逆向解构引擎",
+      "tr": "SKILL_PAY",
+      "v": 10,
+      "l": 1,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e518ef34ba9249629f34f722d87efec5",
+      "t": "交付尺ScopeKit：接单定界助手",
+      "tr": "SKILL_PAY",
+      "v": 4,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4c30c4029f094d98b3116ff05045ce3b",
+      "t": "MCP安全扫描扫后结算",
+      "tr": "MACHINE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f393eb582dd84e0e9d9945b06aabd1e3",
+      "t": "Agent运行时安全熔断",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_9446c5a5eef3463fbc9915ec50be5711",
+      "t": "跨境独立站AI诊断与变现平台",
+      "tr": "VIBE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_62c4a2fc2fa14c549b16bc5ceb62c366",
+      "t": "汐玥语言星球",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_f3435826e7be48a69f8ba9d94e982e3a",
+      "t": "TaughtAI",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a58d804a64df4f2680e52a343f5ec29d",
+      "t": "巨子像素网球",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_55de7d8cfeeb4ae78bdc50cedb537655",
+      "t": "Finfold AI增长运营智能体",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_c8e16982e9924bb6ac69263f10ef6eec",
+      "t": "中医诊断思维与方法",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ba3569e21ea3435aaea3fc98898d2352",
+      "t": "孙子兵法实战技能",
+      "tr": "SKILL_PAY",
+      "v": 2,
+      "l": 1,
+      "c": 0
+    },
+    {
+      "id": "HKWI_48641bcf827f414a91e2989d81c889fb",
+      "t": "恋人周报·AI情侣关系周刊",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_cf5ade2cc15b4fb38237930453f8c79f",
+      "t": "请柬工坊·AI婚礼请柬定制",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4bd89d103efa4a29b9db5f45a3f21150",
+      "t": "评语工坊·AI期末评语生成器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_fa20c4aab9f042f5a6c177f301859c3a",
+      "t": "轻拟物科技商业插画生成",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4a504b105c9c4a849758632fceca9277",
+      "t": "拾光书·AI采访长辈，一生装订成传家书",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ea2451d1a3c94f67b226982ad9c9579d",
+      "t": "网文创作引擎",
+      "tr": "SKILL_PAY",
+      "v": 3,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b4d9ee9ecdf64dddb2569362a78b0051",
+      "t": "ai agent world",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_05607e49efd84062b5a840d180d371f5",
+      "t": "噜咔-社媒营销内容运营增长工作台",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_1eec8cc1532347db957cfbbf100b715e",
+      "t": "DouMatrix",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_ef4d2c87c27043e99678da0a81f47109",
+      "t": "灵感收款机",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_eec73bc8af5945ddb6cf1ff5c10f1d16",
+      "t": "灵感收款机",
+      "tr": "TOKEN_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_dfa830153d8e4ec68cd80adc9f225efe",
+      "t": "灵感收款机",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_d71967dabcd34696bd6ab3bbebe63635",
+      "t": "灵感收款机",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7bf0830332a644f4bbb994d8e779857d",
+      "t": "灵感收款机",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_e6d46e8df4d54484a96c3246ae0ea141",
+      "t": "海报与菜单生成器",
+      "tr": "VIBE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a396dd37768a4c1aba20655a49917852",
+      "t": "兔机米",
+      "tr": "AGENT_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_8237e9d64f674d4990b43fc6f20eb971",
+      "t": "提示词优化skill",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a91f664f654a453bb889bc26ef8e18c7",
+      "t": "工控AI故障诊断·网页按次付费",
+      "tr": "VIBE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_999d2d89671843ec8fb076c3f82dc574",
+      "t": "黄金3秒口播脚本生成器",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_aeffb2e05d1341098a92280b9a22401c",
+      "t": "八字速读台",
+      "tr": "SKILL_PAY",
+      "v": 4,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7fb4640881ec4f109848eb98d0a99925",
+      "t": "头条爆款标题生成器",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3911848fbcc24e57bbe033b344e24135",
+      "t": "闲鱼高转化商品文案",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_a9c848c26ea6485cbb5d5cb2f5837192",
+      "t": "小红书爆款笔记生成器",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_3f7bf274b7da4ed887070b1e8a9deda4",
+      "t": "小说大纲人设生成器",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_372ba176800d4152954779dafc77751f",
+      "t": "电商卖点文案改写",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_5c51e0002dc64a0ebd791331a38a4b20",
+      "t": "PLC 品牌术语对照",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_02a0c0b3f65d48449c6ddba2b5507847",
+      "t": "工控故障排查诊断 Pro",
+      "tr": "SKILL_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_b1c51eb0cccd425ab108e3915c4873fe",
+      "t": "PLC 代码注释与交叉引用 Pro",
+      "tr": "SKILL_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_2388a7007c324efbbe0351ecd58db0fb",
+      "t": "AI文案标题生成API·按量计费",
+      "tr": "MACHINE_PAY",
+      "v": 0,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_4f03130d55b147ed9cf93610e4a04d8f",
+      "t": "工控&通用AI付费技能矩阵",
+      "tr": "MACHINE_PAY",
+      "v": 1,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_7f39e9e2b6d840a0982ea4f91320874b",
+      "t": "AgentBroker-智能体自主经纪人",
+      "tr": "MACHINE_PAY",
+      "v": 2,
+      "l": 0,
+      "c": 0
+    },
+    {
+      "id": "HKWI_715e7d985eb64b0d934bf8efa2df7c40",
+      "t": "剧灵 AI · VibeReel",
+      "tr": "VIBE_PAY",
+      "v": 8,
+      "l": 0,
+      "c": 0
+    }
+  ]
+}
